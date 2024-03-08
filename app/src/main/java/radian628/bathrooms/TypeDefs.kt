@@ -34,12 +34,15 @@ public data class Bathroom(
     val wheelchairAccessible: Boolean,
 
     // ranges from 1 to 5
-    val rating: Double
+    val rating: Double,
+
+    val floor: Floor
 )
 
 public data class Floor(
     val name: String,
-    val bathrooms: List<Bathroom>
+    val bathrooms: List<Bathroom>,
+    val building: Building
 )
 
 public data class Building(
@@ -47,5 +50,7 @@ public data class Building(
 
     // coordinates
     val lat: Double,
-    val lon: Double
+    val lon: Double,
+
+    val name: String
 )

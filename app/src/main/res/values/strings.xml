@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="floor_and_name">"%1$s, %2$s"</string>
 </resources>

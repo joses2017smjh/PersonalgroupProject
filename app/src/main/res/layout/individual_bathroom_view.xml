@@ -14,7 +14,7 @@
             android:paddingStart="10dp"
             android:gravity="center_vertical"
             android:textSize="24dp"
-            android:id="@+id/bathroom_building_and_floor"></TextView>
+            android:id="@+id/bathroom_building_and_floor"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -23,7 +23,7 @@
                 android:paddingStart="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/bathroom_gender_icon"></ImageView>
+                android:id="@+id/bathroom_gender_icon"/>
             <TextView
                 android:paddingStart="10dp"
                 android:layout_width="wrap_content"
@@ -32,15 +32,16 @@
                 android:id="@+id/bathroom_room_number"
                 android:text="1234"
                 android:textSize="24dp"
-                android:gravity="center"></TextView>
+                android:gravity="center"/>
             <View android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="0dp"></View>
-            <LinearLayout
+                android:layout_height="0dp"/>
+            <RatingBar
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:id="@+id/bathroom_rating_stars"></LinearLayout>
+                android:numStars="3"
+                android:id="@+id/bathroom_rating_stars"/>
         </LinearLayout>
         
     </LinearLayout>
