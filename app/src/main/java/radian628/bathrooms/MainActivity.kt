@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.fragment.app.FragmentContainerView
+import androidx.navigation.fragment.NavHostFragment
 import radian628.bathrooms.ui.theme.MyApplicationTheme
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +20,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
+        val navHostFragment = supportFragmentManager.findFragmentById(
+            R.id.main_fragment
+        ) as NavHostFragment
     }
 
     override fun onStart() {
