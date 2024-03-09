@@ -51,6 +51,8 @@ public data class Building(
     // coordinates
     val lat: Double,
     val lon: Double,
+    val distance: String,
+    val rating: Float,
 
     val name: String
 )
