@@ -43,7 +43,12 @@
                 android:numStars="3"
                 android:id="@+id/bathroom_rating_stars"/>
         </LinearLayout>
-        
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_review_list"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
     </LinearLayout>
 
 </LinearLayout>
