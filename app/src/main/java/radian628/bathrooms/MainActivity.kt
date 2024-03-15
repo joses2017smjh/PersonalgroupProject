@@ -1,7 +1,9 @@
 package radian628.bathrooms
 
 import android.app.FragmentManager
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.widget.FrameLayout
@@ -17,6 +19,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.viewinterop.AndroidView
+import com.google.firebase.Firebase
+import com.google.firebase.firestore.firestore
 import radian628.bathrooms.ui.theme.MyApplicationTheme
 import androidx.appcompat.app.AppCompatActivity
 
@@ -26,6 +30,17 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity) // Ensure you have activity_main.xml
+
+        // this is just a test to make sure that firebase is working
+        // feel free to remove it at any point, though it might be
+        // useful as a reference
+        val db = Firebase.firestore
+        db.collection("Bathroom")
+            .document("Y84y9Xq0qT3rtfKs7yQX")
+            .get()
+            .addOnSuccessListener {
+                document -> System.out.println("loaded test data: ${document.data}")
+            }
 
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
