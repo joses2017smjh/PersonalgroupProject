@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596326357253",
+    "project_id": "osu-bathrooms-app",
+    "storage_bucket": "osu-bathrooms-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596326357253:android:4100dc73ff3516306a3f6c",
+        "android_client_info": {
+          "package_name": "radian628.bathrooms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfYv9rjvUP5euewxheYYp0T6esbbPpQ-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
