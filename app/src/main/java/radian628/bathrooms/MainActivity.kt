@@ -19,7 +19,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.viewinterop.AndroidView
 import radian628.bathrooms.ui.theme.MyApplicationTheme
-import androidx.appcompat.app.AppCompatActivity
 
 
 
@@ -35,6 +34,10 @@ class MainActivity : AppCompatActivity() {
                 .commit()
         }
     }
+    override fun onStart() {
+        super.onStart()
+    }
+
 }
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
@@ -42,11 +45,4 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "Hello $name!",
         modifier = modifier
     )
-}
-
-    override fun onStart() {
-        super.onStart()
-    }
-
-
 }
