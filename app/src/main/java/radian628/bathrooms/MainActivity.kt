@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         // useful as a reference
         val db = Firebase.firestore
         db.collection("Bathroom")
-            .document("Y84y9Xq0qT3rtfKs7yQX")
+            .document("0001597e0437e45fa90525ff8f94e3709b072669")
             .get()
             .addOnSuccessListener {
                 document -> System.out.println("loaded test data: ${document.data}")
