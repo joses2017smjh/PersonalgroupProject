@@ -13774,7 +13774,7 @@ This typically indicates that your device does not have a healthy Internet conne
     for (const { value, display, building } of bathroomsData) {
       const singleBathroomDoc = {
         building_name: building,
-        gender: display.endsWith(" Women's?") ? "FEMALE" : display.endsWith(" Men's") ? "MALE" : "INCLUSIVE",
+        gender: display.endsWith(" Women's") ? "FEMALE" : display.endsWith(" Men's") ? "MALE" : "INCLUSIVE",
         rating: 0,
         room_number: display.match(/^\S+/g)?.[0],
         wheelchair_accessible: false

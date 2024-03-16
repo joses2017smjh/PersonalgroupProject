@@ -33,7 +33,7 @@ async function main() {
   for (const { value, display, building } of bathroomsData) {
     const singleBathroomDoc = {
       building_name: building,
-      gender: display.endsWith(" Women's?")
+      gender: display.endsWith(" Women's")
         ? "FEMALE"
         : display.endsWith(" Men's")
         ? "MALE"
