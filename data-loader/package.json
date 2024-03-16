@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "esbuild": "^0.20.2",
+    "firebase": "^10.9.0",
+    "object-hash": "^3.0.0",
+    "uuid": "^9.0.1"
+  }
+}

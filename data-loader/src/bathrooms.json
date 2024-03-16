@@ -1,0 +1,5332 @@
+[
+  {
+    "value": "0030^1",
+    "display": "0030 - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "0030A^1",
+    "display": "0030A - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "0032^1",
+    "display": "0032 - Public Restroom Women's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "1020^1",
+    "display": "1020 - Public Restroom Women's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "1022^1",
+    "display": "1022 - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "1022A^1",
+    "display": "1022A - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "1078A^1",
+    "display": "1078A - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "1078B^1",
+    "display": "1078B - Public Restroom Women's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "2020^1",
+    "display": "2020 - Public Restroom Women's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "2022^1",
+    "display": "2022 - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "2022A^1",
+    "display": "2022A - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "2078A^1",
+    "display": "2078A - Public Restroom Women's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "2078B^1",
+    "display": "2078B - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "3020^1",
+    "display": "3020 - Public Restroom Women's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "3022^1",
+    "display": "3022 - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "3022A^1",
+    "display": "3022A - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "3086B^1",
+    "display": "3086 - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "3086A^1",
+    "display": "3086A - Public Restroom Women's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "4020^1",
+    "display": "4020 - Public Restroom Women's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "4022^1",
+    "display": "4022 - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "4022A^1",
+    "display": "4022A - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "4078^1",
+    "display": "4078 - Public Restroom Women's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "4078A^1",
+    "display": "4078A - Public Restroom Men's",
+    "building": "Agricultural & Life Sciences Bldg"
+  },
+  {
+    "value": "0191^1",
+    "display": "191 - Public Restroom",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0193^1",
+    "display": "193 - Public Restroom",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0195^1",
+    "display": "195 - Public Restroom Men's",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0197^1",
+    "display": "197 - Public Restroom Women's",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0295^1",
+    "display": "295 - Public Restroom Women's",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0297^1",
+    "display": "297 - Public Restroom Men's",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0365^1",
+    "display": "365 - Public Restroom",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0395^1",
+    "display": "395 - Public Restroom Women's",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0397^1",
+    "display": "397 - Public Restroom Men's",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0453^1",
+    "display": "453 - Public Restroom",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0495^1",
+    "display": "495 - Public Restroom Women's",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0497^1",
+    "display": "497 - Public Restroom Men's",
+    "building": "Austin Hall"
+  },
+  {
+    "value": "0140^1",
+    "display": "1061 - Public Restroom Women's",
+    "building": "ATAMI HP Building 11"
+  },
+  {
+    "value": "0141^1",
+    "display": "1065 - Public Restroom Men's",
+    "building": "ATAMI HP Building 11"
+  },
+  {
+    "value": "0130^1",
+    "display": "1085 - Public Restroom Men's",
+    "building": "ATAMI HP Building 11"
+  },
+  {
+    "value": "0132^1",
+    "display": "1087 - Public Restroom Women's",
+    "building": "ATAMI HP Building 11"
+  },
+  {
+    "value": "0222^1",
+    "display": "2085 - Public Restroom Men's",
+    "building": "ATAMI HP Building 11"
+  },
+  {
+    "value": "0224^1",
+    "display": "2087 - Public Restroom Women's",
+    "building": "ATAMI HP Building 11"
+  },
+  {
+    "value": "0105^1",
+    "display": "105 - Public Restroom Men's",
+    "building": "Arnold Dining Center"
+  },
+  {
+    "value": "0106^1",
+    "display": "106 - Public Restroom Women's",
+    "building": "Arnold Dining Center"
+  },
+  {
+    "value": "0123^1",
+    "display": "123 - Public Restroom Men's",
+    "building": "Arnold Dining Center"
+  },
+  {
+    "value": "0124^1",
+    "display": "124 - Public Restroom Women's",
+    "building": "Arnold Dining Center"
+  },
+  {
+    "value": "0126^1",
+    "display": "126 - Public Restroom",
+    "building": "Arnold Dining Center"
+  },
+  {
+    "value": "0127^1",
+    "display": "127 - Public Restroom",
+    "building": "Arnold Dining Center"
+  },
+  {
+    "value": "14",
+    "display": "141 - Public Restroom",
+    "building": "A.A Red Emmerson Advanced Wood Products Laboratory"
+  },
+  {
+    "value": "15",
+    "display": "142 - Public Restroom",
+    "building": "A.A Red Emmerson Advanced Wood Products Laboratory"
+  },
+  {
+    "value": "0111^1",
+    "display": "111 - Public Restroom",
+    "building": "Azalea House"
+  },
+  {
+    "value": "0117^1",
+    "display": "121 - Public Restroom",
+    "building": "Azalea House"
+  },
+  {
+    "value": "0219^1",
+    "display": "219 - Public Restroom",
+    "building": "Azalea House"
+  },
+  {
+    "value": "78",
+    "display": "221 - Public Restroom",
+    "building": "Azalea House"
+  },
+  {
+    "value": "0004A^1",
+    "display": "004A - Public Restroom Men's",
+    "building": "Adams Hall"
+  },
+  {
+    "value": "0004B^1",
+    "display": "004B - Public Restroom Men's",
+    "building": "Adams Hall"
+  },
+  {
+    "value": "0103^1",
+    "display": "103 - Public Restroom Women's",
+    "building": "Adams Hall"
+  },
+  {
+    "value": "0106^1",
+    "display": "106 - Public Restroom Women's",
+    "building": "Adams Hall"
+  },
+  {
+    "value": "0203^1",
+    "display": "203 - Public Restroom Women's",
+    "building": "Adams Hall"
+  },
+  {
+    "value": "0111^1",
+    "display": "111 - Public Restroom Women's",
+    "building": "Autzen House"
+  },
+  {
+    "value": "0112A^1",
+    "display": "112 - Public Restroom Men's",
+    "building": "Autzen House"
+  },
+  {
+    "value": "0205^1",
+    "display": "205 - Public Restroom Women's",
+    "building": "Autzen House"
+  },
+  {
+    "value": "0208^1",
+    "display": "208 - Public Restroom Men's",
+    "building": "Autzen House"
+  },
+  {
+    "value": "0301A^10",
+    "display": "301A - Public Restroom",
+    "building": "Autzen House"
+  },
+  {
+    "value": "0113^73",
+    "display": "113 - Public Restroom",
+    "building": "Asian & Pacific Cultural Center"
+  },
+  {
+    "value": "0114^1",
+    "display": "114 - Public Restroom",
+    "building": "Asian & Pacific Cultural Center"
+  },
+  {
+    "value": "0004^1",
+    "display": "004 - Public Restroom",
+    "building": "Apiary (Bee) Building"
+  },
+  {
+    "value": "0006^1",
+    "display": "006 - Public Restroom",
+    "building": "Apiary (Bee) Building"
+  },
+  {
+    "value": "0100^1",
+    "display": "0100 - Public Restroom",
+    "building": "Animal Physiology Lab"
+  },
+  {
+    "value": "0122^1",
+    "display": "0122 - Public Restroom Men's",
+    "building": "Bloss Hall"
+  },
+  {
+    "value": "0123^1",
+    "display": "0123 - Public Restroom Women's",
+    "building": "Bloss Hall"
+  },
+  {
+    "value": "0142^1",
+    "display": "0142 - Public Restroom Women's",
+    "building": "Bloss Hall"
+  },
+  {
+    "value": "0145^1",
+    "display": "0145 - Public Restroom Men's",
+    "building": "Bloss Hall"
+  },
+  {
+    "value": "0118^1",
+    "display": "0118 - Public Restroom Women's",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0160^1",
+    "display": "0160 - Public Restroom",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0190A^1",
+    "display": "0190A - Public Restroom Women's",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0190B^1",
+    "display": "0190B - Public Restroom Men's",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0220^1",
+    "display": "0220 - Public Restroom Women's",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0264^1",
+    "display": "0264 - Public Restroom",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0290B^1",
+    "display": "0290B - Public Restroom",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0290C^1",
+    "display": "0290C - Public Restroom",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0318^1",
+    "display": "0318 - Public Restroom Men's",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0364^1",
+    "display": "0364 - Public Restroom",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0420^1",
+    "display": "0420 - Public Restroom Women's",
+    "building": "Burt Hall"
+  },
+  {
+    "value": "0009^1",
+    "display": "0009 - Public Restroom",
+    "building": "Buxton Hall"
+  },
+  {
+    "value": "0011^1",
+    "display": "0011 - Public Restroom",
+    "building": "Buxton Hall"
+  },
+  {
+    "value": "0113^1",
+    "display": "0113 - Public Restroom",
+    "building": "Buxton Hall"
+  },
+  {
+    "value": "0115^1",
+    "display": "0115 - Public Restroom",
+    "building": "Buxton Hall"
+  },
+  {
+    "value": "0165^1",
+    "display": "0165 - Public Restroom",
+    "building": "Buxton Hall"
+  },
+  {
+    "value": "0166^1",
+    "display": "0166 - Public Restroom",
+    "building": "Buxton Hall"
+  },
+  {
+    "value": "0101^1",
+    "display": "101 - Public Restroom Men's",
+    "building": "Bexell Hall"
+  },
+  {
+    "value": "0111^1",
+    "display": "113 - Public Restroom Women's",
+    "building": "Bexell Hall"
+  },
+  {
+    "value": "0203^1",
+    "display": "203 - Public Restroom Men's",
+    "building": "Bexell Hall"
+  },
+  {
+    "value": "0210A^1",
+    "display": "210 - Public Restroom",
+    "building": "Bexell Hall"
+  },
+  {
+    "value": "0212^1",
+    "display": "212 - Public Restroom Women's",
+    "building": "Bexell Hall"
+  },
+  {
+    "value": "0317^1",
+    "display": "317 - Public Restroom Men's",
+    "building": "Bexell Hall"
+  },
+  {
+    "value": "0327^1",
+    "display": "327 - Public Restroom Women's",
+    "building": "Bexell Hall"
+  },
+  {
+    "value": "0411^1",
+    "display": "411 - Public Restroom Men's",
+    "building": "Bexell Hall"
+  },
+  {
+    "value": "0421^1",
+    "display": "421 - Public Restroom Women's",
+    "building": "Bexell Hall"
+  },
+  {
+    "value": "0115^1",
+    "display": "115 - Public Restroom Women's",
+    "building": "Ballard Extension Hall"
+  },
+  {
+    "value": "0127A^1",
+    "display": "127A - Public Restroom Men's",
+    "building": "Ballard Extension Hall"
+  },
+  {
+    "value": "0127B^1",
+    "display": "127B - Public Restroom Men's",
+    "building": "Ballard Extension Hall"
+  },
+  {
+    "value": "0223^1",
+    "display": "223 - Public Restroom Men's",
+    "building": "Ballard Extension Hall"
+  },
+  {
+    "value": "0225^1",
+    "display": "225 - Public Restroom Women's",
+    "building": "Ballard Extension Hall"
+  },
+  {
+    "value": "0225A^1",
+    "display": "225A - Public Restroom Women's",
+    "building": "Ballard Extension Hall"
+  },
+  {
+    "value": "0323^1",
+    "display": "323 - Public Restroom Women's",
+    "building": "Ballard Extension Hall"
+  },
+  {
+    "value": "0324B^3",
+    "display": "324B - Public Restroom Men's",
+    "building": "Ballard Extension Hall"
+  },
+  {
+    "value": "0124^1",
+    "display": "124 - Public Restroom Women's",
+    "building": "Beth Ray Center For Academic Support"
+  },
+  {
+    "value": "0125^1",
+    "display": "125 - Public Restroom",
+    "building": "Beth Ray Center For Academic Support"
+  },
+  {
+    "value": "0126^1",
+    "display": "126 - Public Restroom Men's",
+    "building": "Beth Ray Center For Academic Support"
+  },
+  {
+    "value": "0207^1",
+    "display": "207 - Public Restroom Women's",
+    "building": "Beth Ray Center For Academic Support"
+  },
+  {
+    "value": "0208^1",
+    "display": "208 - Public Restroom Men's",
+    "building": "Beth Ray Center For Academic Support"
+  },
+  {
+    "value": "0307^1",
+    "display": "307 - Public Restroom Women's",
+    "building": "Beth Ray Center For Academic Support"
+  },
+  {
+    "value": "0308^1",
+    "display": "308 - Public Restroom Men's",
+    "building": "Beth Ray Center For Academic Support"
+  },
+  {
+    "value": "0326^1",
+    "display": "326 - Public Restroom",
+    "building": "Beth Ray Center For Academic Support"
+  },
+  {
+    "value": "0052^1",
+    "display": "052 - Public Restroom Men's",
+    "building": "Batcheller Hall"
+  },
+  {
+    "value": "0146^1",
+    "display": "146 - Public Restroom Women's",
+    "building": "Batcheller Hall"
+  },
+  {
+    "value": "0259^1",
+    "display": "259 - Public Restroom Women's",
+    "building": "Batcheller Hall"
+  },
+  {
+    "value": "0124^1",
+    "display": "124 - Public Restroom Men's",
+    "building": "Bates Hall"
+  },
+  {
+    "value": "0125^1",
+    "display": "125 - Public Restroom Women's",
+    "building": "Bates Hall"
+  },
+  {
+    "value": "0214^1",
+    "display": "214 - Public Restroom Men's",
+    "building": "Bates Hall"
+  },
+  {
+    "value": "0215^1",
+    "display": "215 - Public Restroom Women's",
+    "building": "Bates Hall"
+  },
+  {
+    "value": "0103A^1",
+    "display": "0103A - Public Restroom",
+    "building": "BF Plant Pathology Office"
+  },
+  {
+    "value": "0100A^1",
+    "display": "0100A - Public Restroom",
+    "building": "Biological Curation"
+  },
+  {
+    "value": "1090",
+    "display": "1124 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1106",
+    "display": "1224 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1123",
+    "display": "1400 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1135",
+    "display": "1500 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1208",
+    "display": "2124 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1226",
+    "display": "2224 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1245",
+    "display": "2400 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1259",
+    "display": "2500 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "3124^1",
+    "display": "3124 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "820",
+    "display": "3224 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "849",
+    "display": "3400 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "876",
+    "display": "3500 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "4124^1",
+    "display": "4124 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "968",
+    "display": "4224 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "993",
+    "display": "4400 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1321",
+    "display": "4500 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1344",
+    "display": "5224 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "1399",
+    "display": "5400 - Public Restroom",
+    "building": "Cordley Hall"
+  },
+  {
+    "value": "33",
+    "display": "1084 - Public Restroom Men's",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "34",
+    "display": "1085 - Public Restroom Women's",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "59",
+    "display": "1106B - Public Restroom",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "343",
+    "display": "1106C - Public Restroom",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "104",
+    "display": "1155 - Public Restroom Women's",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "105",
+    "display": "1156 - Public Restroom Men's",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "136",
+    "display": "2005 - Public Restroom",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "137",
+    "display": "2006 - Public Restroom",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "138",
+    "display": "2007 - Public Restroom",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "160",
+    "display": "2030 - Public Restroom Men's",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "161",
+    "display": "2031 - Public Restroom Women's",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "211",
+    "display": "2161 - Public Restroom Women's",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "212",
+    "display": "2162 - Public Restroom Men's",
+    "building": "Coast Range Building"
+  },
+  {
+    "value": "101",
+    "display": "0111 - Public Restroom",
+    "building": "Carrie Halsell Residence Hall"
+  },
+  {
+    "value": "0109^1",
+    "display": "0109 - Public Restroom",
+    "building": "Callahan Hall"
+  },
+  {
+    "value": "312",
+    "display": "0110 - Public Restroom",
+    "building": "Callahan Hall"
+  },
+  {
+    "value": "328",
+    "display": "0128 - Public Restroom",
+    "building": "Callahan Hall"
+  },
+  {
+    "value": "0125^1",
+    "display": "0125 - Public Restroom",
+    "building": "Cauthorn Hall"
+  },
+  {
+    "value": "0006^1",
+    "display": "0006 - Public Restroom Women's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0008^1",
+    "display": "0008 - Public Restroom Men's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0106^1",
+    "display": "0106 - Public Restroom Women's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0108^1",
+    "display": "0108 - Public Restroom Men's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0206^1",
+    "display": "0206 - Public Restroom Women's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0208^1",
+    "display": "0208 - Public Restroom Men's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0306^1",
+    "display": "0306 - Public Restroom Women's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0308^1",
+    "display": "0308 - Public Restroom Men's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0406^1",
+    "display": "0406 - Public Restroom Women's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0408^1",
+    "display": "0408 - Public Restroom Men's",
+    "building": "Crop Science Building"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom Women's",
+    "building": "CH2M Hill Alumni Center"
+  },
+  {
+    "value": "0106^1",
+    "display": "0106 - Public Restroom Men's",
+    "building": "CH2M Hill Alumni Center"
+  },
+  {
+    "value": "0107^1",
+    "display": "0107 - Public Restroom",
+    "building": "CH2M Hill Alumni Center"
+  },
+  {
+    "value": "0109A^1",
+    "display": "0109A - Public Restroom",
+    "building": "CH2M Hill Alumni Center"
+  },
+  {
+    "value": "0202A^1",
+    "display": "0202A - Public Restroom",
+    "building": "CH2M Hill Alumni Center"
+  },
+  {
+    "value": "0211^53",
+    "display": "0211 - Public Restroom Men's",
+    "building": "CH2M Hill Alumni Center"
+  },
+  {
+    "value": "0212^1",
+    "display": "0212 - Public Restroom Women's",
+    "building": "CH2M Hill Alumni Center"
+  },
+  {
+    "value": "128",
+    "display": "102 - Public Restroom Women's",
+    "building": "Cascade Hall"
+  },
+  {
+    "value": "129",
+    "display": "104 - Public Restroom Men's",
+    "building": "Cascade Hall"
+  },
+  {
+    "value": "0121^1",
+    "display": "121 - Public Restroom",
+    "building": "Cascade Hall"
+  },
+  {
+    "value": "0123^1",
+    "display": "123 - Public Restroom",
+    "building": "Cascade Hall"
+  },
+  {
+    "value": "139",
+    "display": "167 - Public Restroom",
+    "building": "Cascade Hall"
+  },
+  {
+    "value": "0211^1",
+    "display": "211 - Public Restroom Men's",
+    "building": "Cascade Hall"
+  },
+  {
+    "value": "0213^1",
+    "display": "213 - Public Restroom Women's",
+    "building": "Cascade Hall"
+  },
+  {
+    "value": "0253A^1",
+    "display": "253A - Public Restroom",
+    "building": "Cascade Hall"
+  },
+  {
+    "value": "171",
+    "display": "261 - Public Restroom",
+    "building": "Cascade Hall"
+  },
+  {
+    "value": "0014A^1",
+    "display": "014A - Public Restroom Men's",
+    "building": "Covell Hall"
+  },
+  {
+    "value": "0114A^1",
+    "display": "114A - Public Restroom Women's",
+    "building": "Covell Hall"
+  },
+  {
+    "value": "132",
+    "display": "212 - Public Restroom",
+    "building": "Covell Hall"
+  },
+  {
+    "value": "0214A^1",
+    "display": "214A - Public Restroom Men's",
+    "building": "Covell Hall"
+  },
+  {
+    "value": "0109^1",
+    "display": "0109 - Public Restroom",
+    "building": "Community Hall"
+  },
+  {
+    "value": "0111^1",
+    "display": "0111 - Public Restroom Women's",
+    "building": "Community Hall"
+  },
+  {
+    "value": "0301B^1",
+    "display": "0301B - Public Restroom Men's",
+    "building": "Community Hall"
+  },
+  {
+    "value": "0302^1",
+    "display": "0302 - Public Restroom Women's",
+    "building": "Community Hall"
+  },
+  {
+    "value": "46",
+    "display": "0106 - Public Restroom Men's",
+    "building": "CMA Seafood Research Lab"
+  },
+  {
+    "value": "47",
+    "display": "0107 - Public Restroom Women's",
+    "building": "CMA Seafood Research Lab"
+  },
+  {
+    "value": "60",
+    "display": "0204 - Public Restroom Women's",
+    "building": "CMA Seafood Research Lab"
+  },
+  {
+    "value": "61",
+    "display": "0205 - Public Restroom Men's",
+    "building": "CMA Seafood Research Lab"
+  },
+  {
+    "value": "0107^1",
+    "display": "0107 - Public Restroom",
+    "building": "Champinefu Lodge"
+  },
+  {
+    "value": "0109^1",
+    "display": "0109 - Public Restroom",
+    "building": "Champinefu Lodge"
+  },
+  {
+    "value": "0207^1",
+    "display": "0207 - Public Restroom",
+    "building": "Champinefu Lodge"
+  },
+  {
+    "value": "0209^1",
+    "display": "0209 - Public Restroom",
+    "building": "Champinefu Lodge"
+  },
+  {
+    "value": "110",
+    "display": "0307 - Public Restroom",
+    "building": "Champinefu Lodge"
+  },
+  {
+    "value": "111",
+    "display": "0309 - Public Restroom",
+    "building": "Champinefu Lodge"
+  },
+  {
+    "value": "0160^1",
+    "display": "0160 - Public Restroom",
+    "building": "Child Care Center"
+  },
+  {
+    "value": "0164^1",
+    "display": "0164 - Public Restroom",
+    "building": "Child Care Center"
+  },
+  {
+    "value": "0116A^1",
+    "display": "0116A - Public Restroom Men's",
+    "building": "Clark Laboratory"
+  },
+  {
+    "value": "0118A^1",
+    "display": "0118A - Public Restroom Women's",
+    "building": "Clark Laboratory"
+  },
+  {
+    "value": "12",
+    "display": "109 - Public Restroom",
+    "building": "COM Office/Lab"
+  },
+  {
+    "value": "13",
+    "display": "110 - Public Restroom",
+    "building": "COM Office/Lab"
+  },
+  {
+    "value": "0100B^1",
+    "display": "0100B - Public Restroom",
+    "building": "CEOAS Machine and Technical Development"
+  },
+  {
+    "value": "0109^1",
+    "display": "0109 - Public Restroom",
+    "building": "Centro Cultural Cesar Chavez"
+  },
+  {
+    "value": "0110^1",
+    "display": "0110 - Public Restroom",
+    "building": "Centro Cultural Cesar Chavez"
+  },
+  {
+    "value": "0101^1",
+    "display": "0101 - Public Restroom",
+    "building": "Cruise and Expedition Staging"
+  },
+  {
+    "value": "0100C^1",
+    "display": "0100C - Public Restroom",
+    "building": "Coastal Oceanography Lab"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom",
+    "building": "Custodial Services Bldg"
+  },
+  {
+    "value": "0006^1",
+    "display": "0006 - Public Restroom",
+    "building": "COP Potato Storage/Prep"
+  },
+  {
+    "value": "0109A^1",
+    "display": "0109A - Public Restroom",
+    "building": "Dixon Recreation Center"
+  },
+  {
+    "value": "0114^1",
+    "display": "0114 - Public Restroom Men's",
+    "building": "Dixon Recreation Center"
+  },
+  {
+    "value": "0118^1",
+    "display": "0118 - Public Restroom Women's",
+    "building": "Dixon Recreation Center"
+  },
+  {
+    "value": "0140D^1",
+    "display": "0140D - Public Restroom",
+    "building": "Dixon Recreation Center"
+  },
+  {
+    "value": "0214^1",
+    "display": "0214 - Public Restroom Men's",
+    "building": "Dixon Recreation Center"
+  },
+  {
+    "value": "0218^1",
+    "display": "0218 - Public Restroom Women's",
+    "building": "Dixon Recreation Center"
+  },
+  {
+    "value": "0011^1",
+    "display": "011 - Public Restroom Men's",
+    "building": "Dearborn Hall"
+  },
+  {
+    "value": "0106A^1",
+    "display": "106A - Public Restroom Men's",
+    "building": "Dearborn Hall"
+  },
+  {
+    "value": "0107^1",
+    "display": "107 - Public Restroom Women's",
+    "building": "Dearborn Hall"
+  },
+  {
+    "value": "0215A^1",
+    "display": "215A - Public Restroom Men's",
+    "building": "Dearborn Hall"
+  },
+  {
+    "value": "0219B^1",
+    "display": "219B - Public Restroom Women's",
+    "building": "Dearborn Hall"
+  },
+  {
+    "value": "0304A^1",
+    "display": "304A - Public Restroom Men's",
+    "building": "Dearborn Hall"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom Men's",
+    "building": "Dryden Hall"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom Women's",
+    "building": "Dryden Hall"
+  },
+  {
+    "value": "0218^1",
+    "display": "0218 - Public Restroom Women's",
+    "building": "Dryden Hall"
+  },
+  {
+    "value": "0218A^1",
+    "display": "0218A - Public Restroom Women's",
+    "building": "Dryden Hall"
+  },
+  {
+    "value": "0314^1",
+    "display": "0314 - Public Restroom",
+    "building": "Dryden Hall"
+  },
+  {
+    "value": "0314A^1",
+    "display": "0314A - Public Restroom",
+    "building": "Dryden Hall"
+  },
+  {
+    "value": "0024^1",
+    "display": "0024 - Public Restroom",
+    "building": "Dawes House"
+  },
+  {
+    "value": "0202^1",
+    "display": "0202 - Public Restroom",
+    "building": "Douglas County Land Department"
+  },
+  {
+    "value": "0203^1",
+    "display": "0203 - Public Restroom",
+    "building": "Douglas County Land Department"
+  },
+  {
+    "value": "132",
+    "display": "005A - Public Restroom",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "90",
+    "display": "009B - Public Restroom Women's",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "91",
+    "display": "009C - Public Restroom Men's",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "115",
+    "display": "105B - Public Restroom Women's",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "116",
+    "display": "105C - Public Restroom Men's",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "117",
+    "display": "105D - Public Restroom",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "54",
+    "display": "204E - Public Restroom",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "56",
+    "display": "205B - Public Restroom Women's",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "57",
+    "display": "205C - Public Restroom Men's",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "12",
+    "display": "305B - Public Restroom Women's",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "13",
+    "display": "305C - Public Restroom Men's",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "14",
+    "display": "305D - Public Restroom",
+    "building": "Edward J Ray Hall"
+  },
+  {
+    "value": "0123^1",
+    "display": "0123 - Public Restroom Women's",
+    "building": "East Greenhouse"
+  },
+  {
+    "value": "0124^1",
+    "display": "0124 - Public Restroom Men's",
+    "building": "East Greenhouse"
+  },
+  {
+    "value": "0111^1",
+    "display": "0111 - Public Restroom",
+    "building": "Energy Center"
+  },
+  {
+    "value": "0113^1",
+    "display": "0113 - Public Restroom",
+    "building": "Energy Center"
+  },
+  {
+    "value": "0110B^1",
+    "display": "0112 - Public Restroom",
+    "building": "EOA Sciences Admin Bldg"
+  },
+  {
+    "value": "0206^1",
+    "display": "0206 - Public Restroom Women's",
+    "building": "EOA Sciences Admin Bldg"
+  },
+  {
+    "value": "0210A^1",
+    "display": "0210A - Public Restroom Men's",
+    "building": "EOA Sciences Admin Bldg"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom",
+    "building": "Environmental Health & Safety Annex"
+  },
+  {
+    "value": "28",
+    "display": "0104A - Public Restroom",
+    "building": "Einerson House"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom Men's",
+    "building": "EO Office & Misc"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom Women's",
+    "building": "EO Office & Misc"
+  },
+  {
+    "value": "0107^101",
+    "display": "0107 - Public Restroom",
+    "building": "Eugene Motor Pool"
+  },
+  {
+    "value": "0111^69",
+    "display": "0111 - Public Restroom Men's",
+    "building": "Eugene Motor Pool"
+  },
+  {
+    "value": "0112^75",
+    "display": "0112 - Public Restroom Women's",
+    "building": "Eugene Motor Pool"
+  },
+  {
+    "value": "0106^1",
+    "display": "0106 - Public Restroom Women's",
+    "building": "Event Center on the Beach/Fairgrounds"
+  },
+  {
+    "value": "0107^1",
+    "display": "0107 - Public Restroom Men's",
+    "building": "Event Center on the Beach/Fairgrounds"
+  },
+  {
+    "value": "0115^1",
+    "display": "0115 - Public Restroom Women's",
+    "building": "Finley Hall"
+  },
+  {
+    "value": "0116^1",
+    "display": "0116 - Public Restroom Men's",
+    "building": "Finley Hall"
+  },
+  {
+    "value": "0122^1",
+    "display": "0122 - Public Restroom Women's",
+    "building": "Finley Hall"
+  },
+  {
+    "value": "0123A^1",
+    "display": "0123A - Public Restroom Men's",
+    "building": "Finley Hall"
+  },
+  {
+    "value": "136",
+    "display": "123 - Public Restroom Women's",
+    "building": "Fairbanks Hall"
+  },
+  {
+    "value": "137",
+    "display": "124 - Public Restroom",
+    "building": "Fairbanks Hall"
+  },
+  {
+    "value": "138",
+    "display": "125 - Public Restroom Men's",
+    "building": "Fairbanks Hall"
+  },
+  {
+    "value": "154",
+    "display": "214 - Public Restroom Men's",
+    "building": "Fairbanks Hall"
+  },
+  {
+    "value": "174",
+    "display": "314 - Public Restroom Women's",
+    "building": "Fairbanks Hall"
+  },
+  {
+    "value": "0130^1",
+    "display": "0130 - Public Restroom Men's",
+    "building": "Food Innovation Center"
+  },
+  {
+    "value": "0131^1",
+    "display": "0131 - Public Restroom Women's",
+    "building": "Food Innovation Center"
+  },
+  {
+    "value": "0229^1",
+    "display": "0229 - Public Restroom Men's",
+    "building": "Food Innovation Center"
+  },
+  {
+    "value": "0230^1",
+    "display": "0230 - Public Restroom Women's",
+    "building": "Food Innovation Center"
+  },
+  {
+    "value": "6",
+    "display": "0104 - Public Restroom",
+    "building": "Farm Service"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom",
+    "building": "Fisheries and Wildlife Office"
+  },
+  {
+    "value": "0020^1",
+    "display": "0020 - Public Restroom Men's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "416",
+    "display": "0065H - Public Restroom Women's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "417",
+    "display": "0065J - Public Restroom Men's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom Women's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "0116B^1",
+    "display": "0116B - Public Restroom Men's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "0126^1",
+    "display": "0126 - Public Restroom Women's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "0138B^1",
+    "display": "0136B - Public Restroom Men's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "343",
+    "display": "0146 - Public Restroom",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "0202^1",
+    "display": "0202 - Public Restroom Women's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "0212^1",
+    "display": "0212 - Public Restroom Men's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "0214^1",
+    "display": "0214 - Public Restroom Women's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "0224^1",
+    "display": "0224 - Public Restroom Men's",
+    "building": "Gill Coliseum"
+  },
+  {
+    "value": "0011^1",
+    "display": "0011 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "0108^1",
+    "display": "0108 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "0170^1",
+    "display": "0170 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "0172^1",
+    "display": "0172 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "0206^1",
+    "display": "0206 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "0208^1",
+    "display": "0208 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "249",
+    "display": "0270 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "250",
+    "display": "0272 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "257",
+    "display": "0370 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "258",
+    "display": "0372 - Public Restroom",
+    "building": "George W. Peavy Forest Science Center"
+  },
+  {
+    "value": "0017^1",
+    "display": "0017 - Public Restroom Men's",
+    "building": "Gilbert Hall"
+  },
+  {
+    "value": "0117^1",
+    "display": "0117 - Public Restroom Women's",
+    "building": "Gilbert Hall"
+  },
+  {
+    "value": "0121^1",
+    "display": "0121 - Public Restroom",
+    "building": "Gilbert Hall"
+  },
+  {
+    "value": "0135^1",
+    "display": "0135 - Public Restroom Men's",
+    "building": "Gilbert Hall"
+  },
+  {
+    "value": "0215A^11",
+    "display": "0215A - Public Restroom Men's",
+    "building": "Gilbert Hall"
+  },
+  {
+    "value": "0221^1",
+    "display": "0221 - Public Restroom",
+    "building": "Gilbert Hall"
+  },
+  {
+    "value": "0317A^1",
+    "display": "0317A - Public Restroom Men's",
+    "building": "Gilbert Hall"
+  },
+  {
+    "value": "0337A^1",
+    "display": "0337A - Public Restroom Women's",
+    "building": "Gilbert Hall"
+  },
+  {
+    "value": "160^1",
+    "display": "160 - Public Restroom Men's",
+    "building": "Gladys Valley Marine Studies Building"
+  },
+  {
+    "value": "161^1",
+    "display": "161 - Public Restroom Women's",
+    "building": "Gladys Valley Marine Studies Building"
+  },
+  {
+    "value": "181^1",
+    "display": "181 - Public Restroom",
+    "building": "Gladys Valley Marine Studies Building"
+  },
+  {
+    "value": "183^1",
+    "display": "183 - Public Restroom Men's",
+    "building": "Gladys Valley Marine Studies Building"
+  },
+  {
+    "value": "187^1",
+    "display": "187 - Public Restroom Women's",
+    "building": "Gladys Valley Marine Studies Building"
+  },
+  {
+    "value": "203^1",
+    "display": "203 - Public Restroom Men's",
+    "building": "Gladys Valley Marine Studies Building"
+  },
+  {
+    "value": "205^1",
+    "display": "205 - Public Restroom Women's",
+    "building": "Gladys Valley Marine Studies Building"
+  },
+  {
+    "value": "305^1",
+    "display": "305 - Public Restroom Men's",
+    "building": "Gladys Valley Marine Studies Building"
+  },
+  {
+    "value": "307^1",
+    "display": "307 - Public Restroom Women's",
+    "building": "Gladys Valley Marine Studies Building"
+  },
+  {
+    "value": "0106^1",
+    "display": "0106 - Public Restroom Men's",
+    "building": "Goss Stadium"
+  },
+  {
+    "value": "0107^1",
+    "display": "0107 - Public Restroom Women's",
+    "building": "Goss Stadium"
+  },
+  {
+    "value": "0159^16",
+    "display": "0159 - Public Restroom",
+    "building": "Goss Stadium"
+  },
+  {
+    "value": "0162^1",
+    "display": "0162 - Public Restroom",
+    "building": "Goss Stadium"
+  },
+  {
+    "value": "A0103^4",
+    "display": "A0103 - Public Restroom Women's",
+    "building": "Goss Stadium"
+  },
+  {
+    "value": "A0104^7",
+    "display": "A0104 - Public Restroom Men's",
+    "building": "Goss Stadium"
+  },
+  {
+    "value": "95",
+    "display": "A0207 - Public Restroom",
+    "building": "Goss Stadium"
+  },
+  {
+    "value": "A0208^3",
+    "display": "A0208 - Public Restroom",
+    "building": "Goss Stadium"
+  },
+  {
+    "value": "A0211^1",
+    "display": "AM0211 - Public Restroom",
+    "building": "Goss Stadium"
+  },
+  {
+    "value": "0002^1",
+    "display": "002 - Public Restroom Women's",
+    "building": "Gilbert Hall Addition"
+  },
+  {
+    "value": "0004^1",
+    "display": "004 - Public Restroom Men's",
+    "building": "Gilbert Hall Addition"
+  },
+  {
+    "value": "0202^1",
+    "display": "202 - Public Restroom Women's",
+    "building": "Gilbert Hall Addition"
+  },
+  {
+    "value": "0204^1",
+    "display": "204 - Public Restroom Men's",
+    "building": "Gilbert Hall Addition"
+  },
+  {
+    "value": "0302^1",
+    "display": "302 - Public Restroom Women's",
+    "building": "Gilbert Hall Addition"
+  },
+  {
+    "value": "0304^1",
+    "display": "304 - Public Restroom Men's",
+    "building": "Gilbert Hall Addition"
+  },
+  {
+    "value": "0402^1",
+    "display": "402 - Public Restroom Women's",
+    "building": "Gilbert Hall Addition"
+  },
+  {
+    "value": "0404^1",
+    "display": "404 - Public Restroom Men's",
+    "building": "Gilbert Hall Addition"
+  },
+  {
+    "value": "126",
+    "display": "104 - Public Restroom Women's",
+    "building": "Graf Hall"
+  },
+  {
+    "value": "0104A^1",
+    "display": "104A - Public Restroom Women's",
+    "building": "Graf Hall"
+  },
+  {
+    "value": "0105^1",
+    "display": "105 - Public Restroom Men's",
+    "building": "Graf Hall"
+  },
+  {
+    "value": "127",
+    "display": "105A - Public Restroom Men's",
+    "building": "Graf Hall"
+  },
+  {
+    "value": "99",
+    "display": "202 - Public Restroom",
+    "building": "Graf Hall"
+  },
+  {
+    "value": "0203^1",
+    "display": "203 - Public Restroom",
+    "building": "Graf Hall"
+  },
+  {
+    "value": "100",
+    "display": "204 - Public Restroom",
+    "building": "Graf Hall"
+  },
+  {
+    "value": "0305^1",
+    "display": "305 - Public Restroom",
+    "building": "Graf Hall"
+  },
+  {
+    "value": "0306^1",
+    "display": "306 - Public Restroom",
+    "building": "Graf Hall"
+  },
+  {
+    "value": "47",
+    "display": "100A - Public Restroom",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "14",
+    "display": "115 - Public Restroom Women's",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "16",
+    "display": "117 - Public Restroom Men's",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "55",
+    "display": "121 - Public Restroom",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "56",
+    "display": "123 - Public Restroom",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "24",
+    "display": "133 - Public Restroom",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "25",
+    "display": "135 - Public Restroom",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "63",
+    "display": "139 - Public Restroom",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "33",
+    "display": "145 - Public Restroom",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "37",
+    "display": "153 - Public Restroom Women's",
+    "building": "Gymnastics Practice Facility"
+  },
+  {
+    "value": "0007^1",
+    "display": "0007 - Public Restroom Men's",
+    "building": "Gleeson Hall"
+  },
+  {
+    "value": "0007A^1",
+    "display": "0007A - Public Restroom Men's",
+    "building": "Gleeson Hall"
+  },
+  {
+    "value": "0107^1",
+    "display": "0107 - Public Restroom Women's",
+    "building": "Gleeson Hall"
+  },
+  {
+    "value": "0209^1",
+    "display": "0209 - Public Restroom Men's",
+    "building": "Gleeson Hall"
+  },
+  {
+    "value": "0311^1",
+    "display": "0311 - Public Restroom Women's",
+    "building": "Gleeson Hall"
+  },
+  {
+    "value": "0112^1",
+    "display": "0112 - Public Restroom Men's",
+    "building": "Gilkey Hall"
+  },
+  {
+    "value": "0114^1",
+    "display": "0114 - Public Restroom Women's",
+    "building": "Gilkey Hall"
+  },
+  {
+    "value": "0220^1",
+    "display": "0220 - Public Restroom Men's",
+    "building": "Gilkey Hall"
+  },
+  {
+    "value": "0222^1",
+    "display": "0222 - Public Restroom Women's",
+    "building": "Gilkey Hall"
+  },
+  {
+    "value": "0309^1",
+    "display": "0309 - Public Restroom Women's",
+    "building": "Gilkey Hall"
+  },
+  {
+    "value": "0316^1",
+    "display": "0316 - Public Restroom Men's",
+    "building": "Gilkey Hall"
+  },
+  {
+    "value": "0018H^1",
+    "display": "0018H - Public Restroom",
+    "building": "Gladys Valley Center"
+  },
+  {
+    "value": "B0002A^1",
+    "display": "B0002A - Public Restroom",
+    "building": "Gladys Valley Center"
+  },
+  {
+    "value": "0100A^1",
+    "display": "0100A - Public Restroom Men's",
+    "building": "Gilmore Hall"
+  },
+  {
+    "value": "0101^1",
+    "display": "0101 - Public Restroom Women's",
+    "building": "Gilmore Hall"
+  },
+  {
+    "value": "0203A^1",
+    "display": "0203A - Public Restroom Women's",
+    "building": "Gilmore Hall"
+  },
+  {
+    "value": "0205A^1",
+    "display": "0205A - Public Restroom Men's",
+    "building": "Gilmore Hall"
+  },
+  {
+    "value": "0104A^1",
+    "display": "0104A - Public Restroom",
+    "building": "Gilmore Annex"
+  },
+  {
+    "value": "E0101C^1",
+    "display": "E0101C - Public Restroom",
+    "building": "Hinsdale Wave Research Lab"
+  },
+  {
+    "value": "M0103^1",
+    "display": "M0103 - Public Restroom Women's",
+    "building": "Hinsdale Wave Research Lab"
+  },
+  {
+    "value": "M0104^1",
+    "display": "M0104 - Public Restroom Men's",
+    "building": "Hinsdale Wave Research Lab"
+  },
+  {
+    "value": "300",
+    "display": "0005 - Public Restroom Women's",
+    "building": "Hawley Hall"
+  },
+  {
+    "value": "0006^1",
+    "display": "0006 - Public Restroom Men's",
+    "building": "Hawley Hall"
+  },
+  {
+    "value": "0101^1",
+    "display": "0101 - Public Restroom",
+    "building": "Hawley Hall"
+  },
+  {
+    "value": "0121^1",
+    "display": "0121 - Public Restroom",
+    "building": "Hawley Hall"
+  },
+  {
+    "value": "0128^1",
+    "display": "0128 - Public Restroom",
+    "building": "Hawley Hall"
+  },
+  {
+    "value": "0133^27",
+    "display": "0133 - Public Restroom Women's",
+    "building": "Hallie E. Ford Center"
+  },
+  {
+    "value": "0135^23",
+    "display": "0135 - Public Restroom",
+    "building": "Hallie E. Ford Center"
+  },
+  {
+    "value": "0137^25",
+    "display": "0137 - Public Restroom Men's",
+    "building": "Hallie E. Ford Center"
+  },
+  {
+    "value": "0234^29",
+    "display": "0234 - Public Restroom",
+    "building": "Hallie E. Ford Center"
+  },
+  {
+    "value": "0237^22",
+    "display": "0237 - Public Restroom",
+    "building": "Hallie E. Ford Center"
+  },
+  {
+    "value": "0334^25",
+    "display": "0334 - Public Restroom",
+    "building": "Hallie E. Ford Center"
+  },
+  {
+    "value": "0337^19",
+    "display": "0337 - Public Restroom",
+    "building": "Hallie E. Ford Center"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom Women's",
+    "building": "Hogg Animal Metabolism Laboratory"
+  },
+  {
+    "value": "0107^1",
+    "display": "0107 - Public Restroom Men's",
+    "building": "Hogg Animal Metabolism Laboratory"
+  },
+  {
+    "value": "0007^1",
+    "display": "0007 - Public Restroom",
+    "building": "Hovland Hall"
+  },
+  {
+    "value": "0014^1",
+    "display": "0014 - Public Restroom Women's",
+    "building": "Hovland Hall"
+  },
+  {
+    "value": "0105^1",
+    "display": "0105 - Public Restroom Women's",
+    "building": "Hovland Hall"
+  },
+  {
+    "value": "0105A^1",
+    "display": "0105A - Public Restroom Men's",
+    "building": "Hovland Hall"
+  },
+  {
+    "value": "0201^1",
+    "display": "0201 - Public Restroom",
+    "building": "Hovland Hall"
+  },
+  {
+    "value": "0112^1",
+    "display": "0112 - Public Restroom Women's",
+    "building": "Heckart Lodge"
+  },
+  {
+    "value": "0113^1",
+    "display": "0113 - Public Restroom Men's",
+    "building": "Heckart Lodge"
+  },
+  {
+    "value": "0212^53",
+    "display": "0212 - Public Restroom Women's",
+    "building": "Heckart Lodge"
+  },
+  {
+    "value": "0213^44",
+    "display": "0213 - Public Restroom Men's",
+    "building": "Heckart Lodge"
+  },
+  {
+    "value": "0304^38",
+    "display": "0304 - Public Restroom",
+    "building": "Heckart Lodge"
+  },
+  {
+    "value": "0106^1",
+    "display": "0106 - Public Restroom",
+    "building": "Harris Black Cultural Center"
+  },
+  {
+    "value": "0114^1",
+    "display": "0114 - Public Restroom",
+    "building": "Harris Black Cultural Center"
+  },
+  {
+    "value": "0020A^1",
+    "display": "0120A - Public Restroom",
+    "building": "Hattie Redmond Women and Gender Center"
+  },
+  {
+    "value": "168",
+    "display": "0108A - Public Restroom",
+    "building": "Johnson Hall"
+  },
+  {
+    "value": "0109^1",
+    "display": "0109 - Public Restroom Men's",
+    "building": "Johnson Hall"
+  },
+  {
+    "value": "0111^1",
+    "display": "0111 - Public Restroom Women's",
+    "building": "Johnson Hall"
+  },
+  {
+    "value": "0209^1",
+    "display": "0209 - Public Restroom Men's",
+    "building": "Johnson Hall"
+  },
+  {
+    "value": "0211^1",
+    "display": "0211 - Public Restroom Women's",
+    "building": "Johnson Hall"
+  },
+  {
+    "value": "0309^1",
+    "display": "0309 - Public Restroom Men's",
+    "building": "Johnson Hall"
+  },
+  {
+    "value": "0311^1",
+    "display": "0311 - Public Restroom Women's",
+    "building": "Johnson Hall"
+  },
+  {
+    "value": "0106^1",
+    "display": "0106 - Public Restroom Men's",
+    "building": "Joyce Collin Furman Hall"
+  },
+  {
+    "value": "0108^95",
+    "display": "0108 - Public Restroom Women's",
+    "building": "Joyce Collin Furman Hall"
+  },
+  {
+    "value": "0205^63",
+    "display": "0205 - Public Restroom",
+    "building": "Joyce Collin Furman Hall"
+  },
+  {
+    "value": "0206^66",
+    "display": "0206 - Public Restroom Men's",
+    "building": "Joyce Collin Furman Hall"
+  },
+  {
+    "value": "0208^62",
+    "display": "0208 - Public Restroom Women's",
+    "building": "Joyce Collin Furman Hall"
+  },
+  {
+    "value": "0306^1",
+    "display": "0306 - Public Restroom Men's",
+    "building": "Joyce Collin Furman Hall"
+  },
+  {
+    "value": "0308^1",
+    "display": "0308 - Public Restroom Women's",
+    "building": "Joyce Collin Furman Hall"
+  },
+  {
+    "value": "0408^1",
+    "display": "0408 - Public Restroom Women's",
+    "building": "Joyce Collin Furman Hall"
+  },
+  {
+    "value": "265",
+    "display": "0408A - Public Restroom Men's",
+    "building": "Joyce Collin Furman Hall"
+  },
+  {
+    "value": "0108^1",
+    "display": "0108 - Public Restroom Women's",
+    "building": "Jefferson Street Building"
+  },
+  {
+    "value": "0112^1",
+    "display": "0112 - Public Restroom Men's",
+    "building": "Jefferson Street Building"
+  },
+  {
+    "value": "0205^1",
+    "display": "0205 - Public Restroom Men's",
+    "building": "Jefferson Street Building"
+  },
+  {
+    "value": "157",
+    "display": "0208 - Public Restroom Women's",
+    "building": "Jefferson Street Building"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom Men's",
+    "building": "James E. Oldfield Animal Teaching Facility"
+  },
+  {
+    "value": "0110^1",
+    "display": "0110 - Public Restroom Women's",
+    "building": "James E. Oldfield Animal Teaching Facility"
+  },
+  {
+    "value": "0115^1",
+    "display": "0115 - Public Restroom Women's",
+    "building": "John L. Fryer Aquatic Animal Health Laboratory"
+  },
+  {
+    "value": "0116^1",
+    "display": "0116 - Public Restroom Men's",
+    "building": "John L. Fryer Aquatic Animal Health Laboratory"
+  },
+  {
+    "value": "0116^1",
+    "display": "0116 - Public Restroom",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0166^1",
+    "display": "0166 - Public Restroom",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0169^1",
+    "display": "0169 - Public Restroom Men's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0170^1",
+    "display": "0170 - Public Restroom Women's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0256^1",
+    "display": "0256 - Public Restroom Women's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0258^1",
+    "display": "0258 - Public Restroom",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0260^1",
+    "display": "0260 - Public Restroom Men's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0356^1",
+    "display": "0356 - Public Restroom Women's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0358^1",
+    "display": "0358 - Public Restroom",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0360^1",
+    "display": "0360 - Public Restroom Men's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0456^1",
+    "display": "0456 - Public Restroom Women's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0458^1",
+    "display": "0458 - Public Restroom Men's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0556^1",
+    "display": "0556 - Public Restroom Women's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0558^1",
+    "display": "0558 - Public Restroom",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "0560^1",
+    "display": "0560 - Public Restroom Men's",
+    "building": "International Living Learning Center"
+  },
+  {
+    "value": "1122^1",
+    "display": "1122 - Public Restroom Women's",
+    "building": "Kelley Engineering Center"
+  },
+  {
+    "value": "1124^1",
+    "display": "1124 - Public Restroom Men's",
+    "building": "Kelley Engineering Center"
+  },
+  {
+    "value": "2122^1",
+    "display": "2122 - Public Restroom Women's",
+    "building": "Kelley Engineering Center"
+  },
+  {
+    "value": "2124^1",
+    "display": "2124 - Public Restroom Men's",
+    "building": "Kelley Engineering Center"
+  },
+  {
+    "value": "3122^1",
+    "display": "3122 - Public Restroom Women's",
+    "building": "Kelley Engineering Center"
+  },
+  {
+    "value": "3124^1",
+    "display": "3124 - Public Restroom Men's",
+    "building": "Kelley Engineering Center"
+  },
+  {
+    "value": "4122^1",
+    "display": "4122 - Public Restroom Women's",
+    "building": "Kelley Engineering Center"
+  },
+  {
+    "value": "4124^1",
+    "display": "4124 - Public Restroom Men's",
+    "building": "Kelley Engineering Center"
+  },
+  {
+    "value": "A0102^1",
+    "display": "A0102 - Public Restroom Men's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0106^1",
+    "display": "A0106 - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0208^1",
+    "display": "A0208 - Public Restroom Men's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0212^1",
+    "display": "A0212 - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0310^1",
+    "display": "A0310 - Public Restroom Men's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0316^1",
+    "display": "A0316 - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0316A^1",
+    "display": "A0316A - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0408^1",
+    "display": "A0408 - Public Restroom Men's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0412^1",
+    "display": "A0412 - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0412A^1",
+    "display": "A0412A - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0508^1",
+    "display": "A0508 - Public Restroom Men's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0514^1",
+    "display": "A0514 - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0514A^1",
+    "display": "A0514A - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0604^1",
+    "display": "A0604 - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0604A^1",
+    "display": "A0604A - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "A0610^1",
+    "display": "A0610 - Public Restroom Men's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "B0074^1",
+    "display": "B0074 - Public Restroom Men's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "B0076^1",
+    "display": "B0076 - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "B0112^1",
+    "display": "B0112 - Public Restroom",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "B0114^1",
+    "display": "B0114 - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "B0216^1",
+    "display": "B0216 - Public Restroom Men's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "B0218^1",
+    "display": "B0218 - Public Restroom Women's",
+    "building": "Kerr Administration Bldg"
+  },
+  {
+    "value": "0018^1",
+    "display": "018 - Public Restroom Men's",
+    "building": "Kidder Hall"
+  },
+  {
+    "value": "0088^1",
+    "display": "088 - Public Restroom Women's",
+    "building": "Kidder Hall"
+  },
+  {
+    "value": "0146^1",
+    "display": "146 - Public Restroom Men's",
+    "building": "Kidder Hall"
+  },
+  {
+    "value": "0148^1",
+    "display": "148 - Public Restroom Women's",
+    "building": "Kidder Hall"
+  },
+  {
+    "value": "0204^1",
+    "display": "204 - Public Restroom Women's",
+    "building": "Kidder Hall"
+  },
+  {
+    "value": "0208^1",
+    "display": "208 - Public Restroom Men's",
+    "building": "Kidder Hall"
+  },
+  {
+    "value": "0252^1",
+    "display": "252 - Public Restroom Men's",
+    "building": "Kidder Hall"
+  },
+  {
+    "value": "0316^1",
+    "display": "316 - Public Restroom Women's",
+    "building": "Kidder Hall"
+  },
+  {
+    "value": "0336^1",
+    "display": "336 - Public Restroom Men's",
+    "building": "Kidder Hall"
+  },
+  {
+    "value": "0118^1",
+    "display": "0118 - Public Restroom Men's",
+    "building": "Kearney Hall"
+  },
+  {
+    "value": "0120^1",
+    "display": "0120 - Public Restroom Women's",
+    "building": "Kearney Hall"
+  },
+  {
+    "value": "0218^1",
+    "display": "0218 - Public Restroom Men's",
+    "building": "Kearney Hall"
+  },
+  {
+    "value": "0220^1",
+    "display": "0220 - Public Restroom Women's",
+    "building": "Kearney Hall"
+  },
+  {
+    "value": "0318^1",
+    "display": "0318 - Public Restroom Men's",
+    "building": "Kearney Hall"
+  },
+  {
+    "value": "0320^1",
+    "display": "0320 - Public Restroom Women's",
+    "building": "Kearney Hall"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom Men's",
+    "building": "Kaku-ixt Mana Ina Haws"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom",
+    "building": "Kaku-ixt Mana Ina Haws"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom Women's",
+    "building": "Kaku-ixt Mana Ina Haws"
+  },
+  {
+    "value": "0124A^1",
+    "display": "0125B - Public Restroom",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0162^1",
+    "display": "0162 - Public Restroom Women's",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0165^1",
+    "display": "0165 - Public Restroom Men's",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0173^1",
+    "display": "0173 - Public Restroom",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0262^1",
+    "display": "0262 - Public Restroom Women's",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0265^1",
+    "display": "0265 - Public Restroom Men's",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0273^1",
+    "display": "0273 - Public Restroom",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0362^1",
+    "display": "0362 - Public Restroom Women's",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0365^1",
+    "display": "0365 - Public Restroom Men's",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0373^1",
+    "display": "0373 - Public Restroom",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0462^1",
+    "display": "0462 - Public Restroom Women's",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0465^1",
+    "display": "0465 - Public Restroom Men's",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "M0173^1",
+    "display": "M0173 - Public Restroom",
+    "building": "Learning Innovation Center"
+  },
+  {
+    "value": "0071^2",
+    "display": "0071 - Public Restroom Men's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0072^2",
+    "display": "0072 - Public Restroom Women's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0131^31",
+    "display": "0131 - Public Restroom Women's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0133^28",
+    "display": "0133 - Public Restroom Men's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0137^26",
+    "display": "0137 - Public Restroom",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0206^65",
+    "display": "0206 - Public Restroom Men's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0208^61",
+    "display": "0208 - Public Restroom Women's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0306^35",
+    "display": "0306 - Public Restroom Men's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0308^41",
+    "display": "0308 - Public Restroom Women's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0406^22",
+    "display": "0406 - Public Restroom Men's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0408^23",
+    "display": "0408 - Public Restroom Women's",
+    "building": "Linus Pauling Science Center"
+  },
+  {
+    "value": "0124A^1",
+    "display": "0124A - Public Restroom Men's",
+    "building": "Langton Hall"
+  },
+  {
+    "value": "0124B^1",
+    "display": "0124B - Public Restroom Women's",
+    "building": "Langton Hall"
+  },
+  {
+    "value": "0118^1",
+    "display": "0118 - Public Restroom Women's",
+    "building": "LaSells Stewart Center"
+  },
+  {
+    "value": "0119^1",
+    "display": "0119 - Public Restroom Men's",
+    "building": "LaSells Stewart Center"
+  },
+  {
+    "value": "0135^1",
+    "display": "0135 - Public Restroom Men's",
+    "building": "LaSells Stewart Center"
+  },
+  {
+    "value": "0136^1",
+    "display": "0136 - Public Restroom Women's",
+    "building": "LaSells Stewart Center"
+  },
+  {
+    "value": "93",
+    "display": "0161 - Public Restroom Women's",
+    "building": "LaSells Stewart Center"
+  },
+  {
+    "value": "94",
+    "display": "0164 - Public Restroom Men's",
+    "building": "LaSells Stewart Center"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom Men's",
+    "building": "Lab Animal Resources Center"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom Women's",
+    "building": "Lab Animal Resources Center"
+  },
+  {
+    "value": "0109^1",
+    "display": "0109 - Public Restroom Men's",
+    "building": "LINCOLN COUNTY OSU EXTENSION OFFICE"
+  },
+  {
+    "value": "0110^1",
+    "display": "0110 - Public Restroom Women's",
+    "building": "LINCOLN COUNTY OSU EXTENSION OFFICE"
+  },
+  {
+    "value": "381",
+    "display": "0009D - Public Restroom",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "271",
+    "display": "0011B - Public Restroom Men's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "286",
+    "display": "0016A - Public Restroom",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "291",
+    "display": "0021 - Public Restroom Men's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "292",
+    "display": "0022 - Public Restroom Women's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "337",
+    "display": "0039 - Public Restroom Men's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "339",
+    "display": "0040 - Public Restroom Women's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "389",
+    "display": "0050B - Public Restroom Women's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "391",
+    "display": "0052 - Public Restroom",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "398",
+    "display": "0058 - Public Restroom Men's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "399",
+    "display": "0059 - Public Restroom Women's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "414",
+    "display": "0065 - Public Restroom",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "415",
+    "display": "0065A - Public Restroom Women's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "417",
+    "display": "0065C - Public Restroom Men's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "0114^1",
+    "display": "0114 - Public Restroom Men's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "0116B^1",
+    "display": "0116B - Public Restroom Women's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "0220^1",
+    "display": "0220 - Public Restroom Men's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "0226^1",
+    "display": "0226 - Public Restroom Women's",
+    "building": "Memorial Union"
+  },
+  {
+    "value": "0105A^1",
+    "display": "0105A - Public Restroom Men's",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0105B^1",
+    "display": "0105B - Public Restroom Women's",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0131^1",
+    "display": "0131 - Public Restroom Women's",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0133^1",
+    "display": "0133 - Public Restroom Men's",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0159B^1",
+    "display": "0159B - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0173A^1",
+    "display": "0173A - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0184^1",
+    "display": "0184 - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0186^1",
+    "display": "0186 - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0204^1",
+    "display": "0204 - Public Restroom Women's",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0206^1",
+    "display": "0206 - Public Restroom Men's",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0260A^1",
+    "display": "0260A - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0260B^1",
+    "display": "0260B - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0295B^1",
+    "display": "0295 - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0297^1",
+    "display": "0297 - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "443",
+    "display": "1001 - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "444",
+    "display": "1003 - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "489",
+    "display": "2007 - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "491",
+    "display": "2009 - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "A0113A^1",
+    "display": "A0113A - Public Restroom",
+    "building": "Magruder Hall"
+  },
+  {
+    "value": "0011A^1",
+    "display": "0011A - Public Restroom Women's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0011C^3",
+    "display": "0011C - Public Restroom Women's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0021^1",
+    "display": "0021 - Public Restroom",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0024B^1",
+    "display": "0024B - Public Restroom",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0028A^1",
+    "display": "0028A - Public Restroom Men's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0028B^1",
+    "display": "0028B - Public Restroom Women's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0106A^1",
+    "display": "0106A - Public Restroom",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0117B^1",
+    "display": "0117B - Public Restroom Women's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0117C^2",
+    "display": "0117C - Public Restroom Women's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0125^1",
+    "display": "0125 - Public Restroom Men's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0125A^1",
+    "display": "0125A - Public Restroom Men's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0211B^1",
+    "display": "0211B - Public Restroom Men's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0211D^1",
+    "display": "0211D - Public Restroom Men's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0215A^1",
+    "display": "0215A - Public Restroom Women's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0215C^1",
+    "display": "0215C - Public Restroom Women's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0317A^1",
+    "display": "0317A - Public Restroom Men's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0317C^1",
+    "display": "0317C - Public Restroom Men's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0327A^1",
+    "display": "0327A - Public Restroom Women's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "0327C^1",
+    "display": "0327C - Public Restroom Women's",
+    "building": "Milam Hall"
+  },
+  {
+    "value": "23",
+    "display": "A0104 - Public Restroom Women's",
+    "building": "Merritt Truax Indoor Center"
+  },
+  {
+    "value": "26",
+    "display": "A0107 - Public Restroom Women's",
+    "building": "Merritt Truax Indoor Center"
+  },
+  {
+    "value": "0109^1",
+    "display": "0109 - Public Restroom",
+    "building": "McNary Hall"
+  },
+  {
+    "value": "0110^1",
+    "display": "0110 - Public Restroom",
+    "building": "McNary Hall"
+  },
+  {
+    "value": "0128^1",
+    "display": "0128 - Public Restroom",
+    "building": "McNary Hall"
+  },
+  {
+    "value": "0107^1",
+    "display": "0107 - Public Restroom Women's",
+    "building": "McAlexander Fieldhouse"
+  },
+  {
+    "value": "0112^1",
+    "display": "0112 - Public Restroom Men's",
+    "building": "McAlexander Fieldhouse"
+  },
+  {
+    "value": "0118^1",
+    "display": "0118 - Public Restroom Men's",
+    "building": "McAlexander Fieldhouse"
+  },
+  {
+    "value": "0119^1",
+    "display": "0119 - Public Restroom Women's",
+    "building": "McAlexander Fieldhouse"
+  },
+  {
+    "value": "0120^1",
+    "display": "0120 - Public Restroom",
+    "building": "McAlexander Fieldhouse"
+  },
+  {
+    "value": "0211^1",
+    "display": "0211 - Public Restroom Men's",
+    "building": "McAlexander Fieldhouse"
+  },
+  {
+    "value": "0213^1",
+    "display": "0213 - Public Restroom Women's",
+    "building": "McAlexander Fieldhouse"
+  },
+  {
+    "value": "0100B^26",
+    "display": "0100B - Public Restroom Women's",
+    "building": "Marine Science Lab"
+  },
+  {
+    "value": "0100C^14",
+    "display": "0100C - Public Restroom Men's",
+    "building": "Marine Science Lab"
+  },
+  {
+    "value": "0100D^9",
+    "display": "0100D - Public Restroom",
+    "building": "Marine Science Lab"
+  },
+  {
+    "value": "0139^1",
+    "display": "0139 - Public Restroom Men's",
+    "building": "Marine Science Lab"
+  },
+  {
+    "value": "0159^1",
+    "display": "0159 - Public Restroom Women's",
+    "building": "Marine Science Lab"
+  },
+  {
+    "value": "0255^1",
+    "display": "0255 - Public Restroom Men's",
+    "building": "Marine Science Lab"
+  },
+  {
+    "value": "0257^1",
+    "display": "0257 - Public Restroom Women's",
+    "building": "Marine Science Lab"
+  },
+  {
+    "value": "54",
+    "display": "0103A - Public Restroom",
+    "building": "McNary Dining Center"
+  },
+  {
+    "value": "68",
+    "display": "0111 - Public Restroom Men's",
+    "building": "McNary Dining Center"
+  },
+  {
+    "value": "69",
+    "display": "0112 - Public Restroom Women's",
+    "building": "McNary Dining Center"
+  },
+  {
+    "value": "0120C^1",
+    "display": "0120C - Public Restroom",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "0146^1",
+    "display": "0146 - Public Restroom",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "V0148^1",
+    "display": "0148 - Public Restroom Men's",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "0148A^1",
+    "display": "0148A - Public Restroom Men's",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "0148B^1",
+    "display": "0148B - Public Restroom Men's",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "V0218^1",
+    "display": "0218 - Public Restroom Women's",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "0218A^1",
+    "display": "0218A - Public Restroom Women's",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "0218B^1",
+    "display": "0218B - Public Restroom Women's",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "V0366^1",
+    "display": "0366 - Public Restroom Men's",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "0366A^1",
+    "display": "0366A - Public Restroom Men's",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "0366B^1",
+    "display": "0366B - Public Restroom Men's",
+    "building": "Moreland Hall"
+  },
+  {
+    "value": "0002^1",
+    "display": "D0002 - Public Restroom Men's",
+    "building": "Marketplace West Dining Center"
+  },
+  {
+    "value": "0003^1",
+    "display": "D0003 - Public Restroom Women's",
+    "building": "Marketplace West Dining Center"
+  },
+  {
+    "value": "0120^1",
+    "display": "D0120 - Public Restroom Women's",
+    "building": "Marketplace West Dining Center"
+  },
+  {
+    "value": "0121^1",
+    "display": "D0121 - Public Restroom Men's",
+    "building": "Marketplace West Dining Center"
+  },
+  {
+    "value": "0101^1",
+    "display": "101 - Public Restroom",
+    "building": "Merryfield Hall"
+  },
+  {
+    "value": "77",
+    "display": "116 - Public Restroom",
+    "building": "Merryfield Hall"
+  },
+  {
+    "value": "79",
+    "display": "118 - Public Restroom",
+    "building": "Merryfield Hall"
+  },
+  {
+    "value": "80",
+    "display": "119 - Public Restroom",
+    "building": "Merryfield Hall"
+  },
+  {
+    "value": "81",
+    "display": "120 - Public Restroom",
+    "building": "Merryfield Hall"
+  },
+  {
+    "value": "84",
+    "display": "200 - Public Restroom",
+    "building": "Merryfield Hall"
+  },
+  {
+    "value": "85",
+    "display": "201 - Public Restroom",
+    "building": "Merryfield Hall"
+  },
+  {
+    "value": "V0113^1",
+    "display": "0113 - Public Restroom",
+    "building": "Milne Computer Center"
+  },
+  {
+    "value": "V0116^1",
+    "display": "0116 - Public Restroom",
+    "building": "Milne Computer Center"
+  },
+  {
+    "value": "0023^1",
+    "display": "0023 - Public Restroom Men's",
+    "building": "MSC Education"
+  },
+  {
+    "value": "0025^1",
+    "display": "0025 - Public Restroom Women's",
+    "building": "MSC Education"
+  },
+  {
+    "value": "0100A^1",
+    "display": "100A - Public Restroom Women's",
+    "building": "Motor Pool"
+  },
+  {
+    "value": "0100C^1",
+    "display": "100C - Public Restroom Men's",
+    "building": "Motor Pool"
+  },
+  {
+    "value": "0106A^1",
+    "display": "0106A - Public Restroom",
+    "building": "Motor Pool Annex"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom",
+    "building": "MSC Ship Operations"
+  },
+  {
+    "value": "0208^1",
+    "display": "0208 - Public Restroom Women's",
+    "building": "MSC Ship Operations"
+  },
+  {
+    "value": "0209^1",
+    "display": "0209 - Public Restroom Men's",
+    "building": "MSC Ship Operations"
+  },
+  {
+    "value": "4",
+    "display": "1154 - Public Restroom",
+    "building": "Magruder Lecture Hall"
+  },
+  {
+    "value": "5",
+    "display": "1155 - Public Restroom Women's",
+    "building": "Magruder Lecture Hall"
+  },
+  {
+    "value": "0113^1",
+    "display": "0113 - Public Restroom",
+    "building": "MSC Ship Support"
+  },
+  {
+    "value": "0108^1",
+    "display": "0108 - Public Restroom",
+    "building": "Marine Technician Building"
+  },
+  {
+    "value": "0177^1",
+    "display": "0177 - Public Restroom",
+    "building": "MSC Science Staging (Wharf)"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom Women's",
+    "building": "MSC Meeting - Dining"
+  },
+  {
+    "value": "0105^1",
+    "display": "0105 - Public Restroom Men's",
+    "building": "MSC Meeting - Dining"
+  },
+  {
+    "value": "0101^1",
+    "display": "0101 - Public Restroom",
+    "building": "MC Shop"
+  },
+  {
+    "value": "0111^70",
+    "display": "0111 - Public Restroom",
+    "building": "Morrow County Extension Office"
+  },
+  {
+    "value": "0112^76",
+    "display": "0112 - Public Restroom",
+    "building": "Morrow County Extension Office"
+  },
+  {
+    "value": "0113^1",
+    "display": "0113 - Public Restroom Women's",
+    "building": "Malheur County Extension Building"
+  },
+  {
+    "value": "0115^1",
+    "display": "0115 - Public Restroom Men's",
+    "building": "Malheur County Extension Building"
+  },
+  {
+    "value": "0012^1",
+    "display": "012 - Public Restroom Men's",
+    "building": "Nash Hall"
+  },
+  {
+    "value": "0106^1",
+    "display": "106 - Public Restroom Women's",
+    "building": "Nash Hall"
+  },
+  {
+    "value": "0208^1",
+    "display": "208 - Public Restroom Men's",
+    "building": "Nash Hall"
+  },
+  {
+    "value": "0306^1",
+    "display": "306 - Public Restroom Women's",
+    "building": "Nash Hall"
+  },
+  {
+    "value": "0306A^1",
+    "display": "306A - Public Restroom Women's",
+    "building": "Nash Hall"
+  },
+  {
+    "value": "0408^1",
+    "display": "408 - Public Restroom Men's",
+    "building": "Nash Hall"
+  },
+  {
+    "value": "0504^1",
+    "display": "504 - Public Restroom Women's",
+    "building": "Nash Hall"
+  },
+  {
+    "value": "0003^1",
+    "display": "0003 - Public Restroom Men's",
+    "building": "NW Laboratory & Office"
+  },
+  {
+    "value": "47",
+    "display": "0003A - Public Restroom Men's",
+    "building": "NW Laboratory & Office"
+  },
+  {
+    "value": "50",
+    "display": "0007A - Public Restroom",
+    "building": "NW Laboratory & Office"
+  },
+  {
+    "value": "38",
+    "display": "0105B - Public Restroom Men's",
+    "building": "NW Laboratory & Office"
+  },
+  {
+    "value": "39",
+    "display": "0105C - Public Restroom Men's",
+    "building": "NW Laboratory & Office"
+  },
+  {
+    "value": "40",
+    "display": "0117A - Public Restroom",
+    "building": "NW Laboratory & Office"
+  },
+  {
+    "value": "41",
+    "display": "0117B - Public Restroom",
+    "building": "NW Laboratory & Office"
+  },
+  {
+    "value": "0101^1",
+    "display": "101 - Public Restroom",
+    "building": "Nancy Squires Aerospace Lab"
+  },
+  {
+    "value": "268",
+    "display": "107 - Public Restroom Women's",
+    "building": "OSU Cascades Residence Hall"
+  },
+  {
+    "value": "0109^1",
+    "display": "109 - Public Restroom",
+    "building": "OSU Cascades Residence Hall"
+  },
+  {
+    "value": "0111^1",
+    "display": "111 - Public Restroom Men's",
+    "building": "OSU Cascades Residence Hall"
+  },
+  {
+    "value": "0118B^1",
+    "display": "118B - Public Restroom",
+    "building": "OSU Cascades Residence Hall"
+  },
+  {
+    "value": "0202^1",
+    "display": "202 - Public Restroom",
+    "building": "OSU Cascades Residence Hall"
+  },
+  {
+    "value": "0302^1",
+    "display": "302 - Public Restroom",
+    "building": "OSU Cascades Residence Hall"
+  },
+  {
+    "value": "0402^1",
+    "display": "402 - Public Restroom",
+    "building": "OSU Cascades Residence Hall"
+  },
+  {
+    "value": "0119^1",
+    "display": "0119 - Public Restroom Men's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0119A^1",
+    "display": "0119A - Public Restroom Men's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0121^1",
+    "display": "0121 - Public Restroom Women's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0121A^1",
+    "display": "0121A - Public Restroom Women's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0219^1",
+    "display": "0219 - Public Restroom Men's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0219A^1",
+    "display": "0219A - Public Restroom Men's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0221^1",
+    "display": "0221 - Public Restroom Women's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0221A^1",
+    "display": "0221A - Public Restroom Women's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0319^1",
+    "display": "0319 - Public Restroom Men's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0319A^1",
+    "display": "0319A - Public Restroom Men's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0321^1",
+    "display": "0321 - Public Restroom Women's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0321A^1",
+    "display": "0321A - Public Restroom Women's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0419^1",
+    "display": "0419 - Public Restroom Men's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0419A^1",
+    "display": "0419A - Public Restroom Men's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0421^1",
+    "display": "0421 - Public Restroom Women's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0421A^1",
+    "display": "0421A - Public Restroom Women's",
+    "building": "Owen Hall"
+  },
+  {
+    "value": "0122^1",
+    "display": "0122 - Public Restroom",
+    "building": "Oak Creek Building"
+  },
+  {
+    "value": "0124^1",
+    "display": "0124 - Public Restroom",
+    "building": "Oak Creek Building"
+  },
+  {
+    "value": "0165^1",
+    "display": "0165 - Public Restroom Men's",
+    "building": "Oak Creek Building"
+  },
+  {
+    "value": "0175A^1",
+    "display": "0175A - Public Restroom Women's",
+    "building": "Oak Creek Building"
+  },
+  {
+    "value": "0175B^1",
+    "display": "0175B - Public Restroom Men's",
+    "building": "Oak Creek Building"
+  },
+  {
+    "value": "0207^1",
+    "display": "0207 - Public Restroom Women's",
+    "building": "Oak Creek Building"
+  },
+  {
+    "value": "0209^1",
+    "display": "0209 - Public Restroom Men's",
+    "building": "Oak Creek Building"
+  },
+  {
+    "value": "0256^8",
+    "display": "0256 - Public Restroom",
+    "building": "Oak Creek Building"
+  },
+  {
+    "value": "0102^1",
+    "display": "100 - Public Restroom Women's",
+    "building": "OSU Cascades Graduate And Research Center"
+  },
+  {
+    "value": "0104^1",
+    "display": "101 - Public Restroom Men's",
+    "building": "OSU Cascades Graduate And Research Center"
+  },
+  {
+    "value": "0125^1",
+    "display": "125 - Public Restroom Men's",
+    "building": "OSU Cascades Graduate And Research Center"
+  },
+  {
+    "value": "0127^1",
+    "display": "127 - Public Restroom Women's",
+    "building": "OSU Cascades Graduate And Research Center"
+  },
+  {
+    "value": "0203^1",
+    "display": "201 - Public Restroom Women's",
+    "building": "OSU Cascades Graduate And Research Center"
+  },
+  {
+    "value": "115",
+    "display": "203 - Public Restroom Men's",
+    "building": "OSU Cascades Graduate And Research Center"
+  },
+  {
+    "value": "0100A^1",
+    "display": "100A - Public Restroom Women's",
+    "building": "Obsidian Hall"
+  },
+  {
+    "value": "0100B^1",
+    "display": "100B - Public Restroom Men's",
+    "building": "Obsidian Hall"
+  },
+  {
+    "value": "0200A^1",
+    "display": "200A - Public Restroom Women's",
+    "building": "Obsidian Hall"
+  },
+  {
+    "value": "0200B^1",
+    "display": "200B - Public Restroom",
+    "building": "Obsidian Hall"
+  },
+  {
+    "value": "0200C^1",
+    "display": "200C - Public Restroom Men's",
+    "building": "Obsidian Hall"
+  },
+  {
+    "value": "0112^73",
+    "display": "0112 - Public Restroom",
+    "building": "Ocean Observing Center"
+  },
+  {
+    "value": "0122A^7",
+    "display": "0122A - Public Restroom",
+    "building": "Ocean Observing Center"
+  },
+  {
+    "value": "0124A^8",
+    "display": "0124A - Public Restroom",
+    "building": "Ocean Observing Center"
+  },
+  {
+    "value": "79",
+    "display": "0113 - Public Restroom",
+    "building": "Oxford House"
+  },
+  {
+    "value": "80",
+    "display": "0115 - Public Restroom",
+    "building": "Oxford House"
+  },
+  {
+    "value": "0213^1",
+    "display": "0213 - Public Restroom",
+    "building": "Oxford House"
+  },
+  {
+    "value": "97",
+    "display": "0215 - Public Restroom",
+    "building": "Oxford House"
+  },
+  {
+    "value": "112",
+    "display": "0313 - Public Restroom",
+    "building": "Oxford House"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom",
+    "building": "Oak Creek Lab"
+  },
+  {
+    "value": "0102C^1",
+    "display": "0102C - Public Restroom",
+    "building": "Oceanography Staging Bldg-Cyclotron"
+  },
+  {
+    "value": "0105^1",
+    "display": "0105 - Public Restroom Men's",
+    "building": "Outdoor Rec Maintenance Pavilion"
+  },
+  {
+    "value": "0106^1",
+    "display": "0106 - Public Restroom Women's",
+    "building": "Outdoor Rec Maintenance Pavilion"
+  },
+  {
+    "value": "0108^1",
+    "display": "0108 - Public Restroom",
+    "building": "Outdoor Rec Maintenance Pavilion"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom",
+    "building": "Oceanography Buoy Lab"
+  },
+  {
+    "value": "0105^1",
+    "display": "0105 - Public Restroom",
+    "building": "Oceanography Instrumentation Lab"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom",
+    "building": "Ocean Mixing Lab"
+  },
+  {
+    "value": "0110^1",
+    "display": "0110 - Public Restroom",
+    "building": "Oak Creek Chem Laboratory"
+  },
+  {
+    "value": "0110^92",
+    "display": "0110 - Public Restroom Women's",
+    "building": "Ohlson Baxter Bldg"
+  },
+  {
+    "value": "0112^78",
+    "display": "0112 - Public Restroom Men's",
+    "building": "Ohlson Baxter Bldg"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom Men's",
+    "building": "Oregon 4-H Center"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom Women's",
+    "building": "Oregon 4-H Center"
+  },
+  {
+    "value": "0206^1",
+    "display": "0206 - Public Restroom",
+    "building": "Oregon 4-H Center"
+  },
+  {
+    "value": "0105^2",
+    "display": "0105 - Public Restroom",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0106^2",
+    "display": "0106 - Public Restroom",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0108M^1",
+    "display": "0108M - Public Restroom",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0109M^1",
+    "display": "0109M - Public Restroom",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0105^1",
+    "display": "0119 - Public Restroom Men's",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0104^1",
+    "display": "0120 - Public Restroom Women's",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0202^1",
+    "display": "0124M - Public Restroom Men's",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0203^1",
+    "display": "0203 - Public Restroom",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0208M^1",
+    "display": "0208M - Public Restroom",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0209M^1",
+    "display": "0209M - Public Restroom",
+    "building": "P. Wayne Valley Sports Performance Center"
+  },
+  {
+    "value": "0018^1",
+    "display": "0018 - Public Restroom Women's",
+    "building": "Poling Hall"
+  },
+  {
+    "value": "296",
+    "display": "0019 - Public Restroom Men's",
+    "building": "Poling Hall"
+  },
+  {
+    "value": "0125^1",
+    "display": "0125 - Public Restroom",
+    "building": "Poling Hall"
+  },
+  {
+    "value": "0109A^1",
+    "display": "0109A - Public Restroom Men's",
+    "building": "Pharmacy"
+  },
+  {
+    "value": "0109B^1",
+    "display": "0109B - Public Restroom Men's",
+    "building": "Pharmacy"
+  },
+  {
+    "value": "0215A^1",
+    "display": "0215A - Public Restroom Women's",
+    "building": "Pharmacy"
+  },
+  {
+    "value": "0215B^1",
+    "display": "0215B - Public Restroom Women's",
+    "building": "Pharmacy"
+  },
+  {
+    "value": "0307B^1",
+    "display": "0307B - Public Restroom",
+    "building": "Pharmacy"
+  },
+  {
+    "value": "0307C^1",
+    "display": "0307C - Public Restroom Women's",
+    "building": "Pharmacy"
+  },
+  {
+    "value": "11",
+    "display": "2017 - Public Restroom",
+    "building": "Portland Center - Meier & Frank"
+  },
+  {
+    "value": "12",
+    "display": "2019 - Public Restroom",
+    "building": "Portland Center - Meier & Frank"
+  },
+  {
+    "value": "14",
+    "display": "2021 - Public Restroom Men's",
+    "building": "Portland Center - Meier & Frank"
+  },
+  {
+    "value": "16",
+    "display": "2023 - Public Restroom Women's",
+    "building": "Portland Center - Meier & Frank"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom",
+    "building": "Plageman Student Health Center"
+  },
+  {
+    "value": "0108B^1",
+    "display": "0109B - Public Restroom",
+    "building": "Plageman Student Health Center"
+  },
+  {
+    "value": "0108C^1",
+    "display": "0109C - Public Restroom",
+    "building": "Plageman Student Health Center"
+  },
+  {
+    "value": "0200J^1",
+    "display": "0200J - Public Restroom",
+    "building": "Plageman Student Health Center"
+  },
+  {
+    "value": "0201D^1",
+    "display": "0201D - Public Restroom",
+    "building": "Plageman Student Health Center"
+  },
+  {
+    "value": "0206B^1",
+    "display": "0206B - Public Restroom",
+    "building": "Plageman Student Health Center"
+  },
+  {
+    "value": "0310A^1",
+    "display": "0310A - Public Restroom",
+    "building": "Plageman Student Health Center"
+  },
+  {
+    "value": "0104A^1",
+    "display": "0104A - Public Restroom Men's",
+    "building": "Physical Plant Heating Plant"
+  },
+  {
+    "value": "0101^1",
+    "display": "0101 - Public Restroom Women's",
+    "building": "Potts-Guin Library"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom Men's",
+    "building": "Potts-Guin Library"
+  },
+  {
+    "value": "0101^1",
+    "display": "0101 - Public Restroom Men's",
+    "building": "Property Services"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom Women's",
+    "building": "Property Services"
+  },
+  {
+    "value": "17",
+    "display": "0111A - Public Restroom",
+    "building": "Property Services"
+  },
+  {
+    "value": "0110^1",
+    "display": "0110 - Public Restroom Men's",
+    "building": "Precision Agricultural Systems Ctr"
+  },
+  {
+    "value": "0112^1",
+    "display": "0112 - Public Restroom Women's",
+    "building": "Precision Agricultural Systems Ctr"
+  },
+  {
+    "value": "0504A^1",
+    "display": "0504A - Public Restroom",
+    "building": "PS Machine Shop & Cereal Lab"
+  },
+  {
+    "value": "36",
+    "display": "0516A - Public Restroom",
+    "building": "PS Machine Shop & Cereal Lab"
+  },
+  {
+    "value": "37",
+    "display": "0516B - Public Restroom",
+    "building": "PS Machine Shop & Cereal Lab"
+  },
+  {
+    "value": "0100^1",
+    "display": "0100 - Public Restroom Women's",
+    "building": "Peavy Lodge"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom",
+    "building": "Peavy Lodge"
+  },
+  {
+    "value": "0105^1",
+    "display": "0105 - Public Restroom",
+    "building": "Peavy Arboretum Research Forest Office Bldg"
+  },
+  {
+    "value": "0106^1",
+    "display": "0106 - Public Restroom",
+    "building": "Peavy Arboretum Research Forest Office Bldg"
+  },
+  {
+    "value": "22",
+    "display": "0906 - Public Restroom",
+    "building": "PS Office"
+  },
+  {
+    "value": "23",
+    "display": "0907 - Public Restroom",
+    "building": "PS Office"
+  },
+  {
+    "value": "292",
+    "display": "0103 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "297",
+    "display": "0107 - Public Restroom",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "304",
+    "display": "0115 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "310",
+    "display": "0121 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "318",
+    "display": "0131 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "331",
+    "display": "0153 - Public Restroom",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "333",
+    "display": "0157 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "335",
+    "display": "0157B - Public Restroom",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "343",
+    "display": "0168 - Public Restroom",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "347",
+    "display": "0172 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "354",
+    "display": "0179 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "198",
+    "display": "0213 - Public Restroom",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "206",
+    "display": "0225A - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "207",
+    "display": "0225B - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "208",
+    "display": "0225C - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "209",
+    "display": "0225D - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "213",
+    "display": "0233 - Public Restroom",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "228",
+    "display": "0305 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "230",
+    "display": "0309 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "232",
+    "display": "0311 - Public Restroom",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "241",
+    "display": "0325 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "242",
+    "display": "0327 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "243",
+    "display": "0329 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "246",
+    "display": "0337 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "247",
+    "display": "0339 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "248",
+    "display": "0341 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "260",
+    "display": "0357 - Public Restroom",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "261",
+    "display": "0359 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "263",
+    "display": "0363 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "167",
+    "display": "0420 - Public Restroom",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "169",
+    "display": "0422 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "171",
+    "display": "0424 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "179",
+    "display": "0432 - Public Restroom Women's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "181",
+    "display": "0434 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "P0229^1",
+    "display": "P0229 - Public Restroom Men's",
+    "building": "Reser Stadium"
+  },
+  {
+    "value": "0007^1",
+    "display": "0007 - Public Restroom Women's",
+    "building": "Richardson Hall"
+  },
+  {
+    "value": "0007A^1",
+    "display": "0007A - Public Restroom Women's",
+    "building": "Richardson Hall"
+  },
+  {
+    "value": "0160^1",
+    "display": "0160 - Public Restroom Men's",
+    "building": "Richardson Hall"
+  },
+  {
+    "value": "0162^1",
+    "display": "0162 - Public Restroom Women's",
+    "building": "Richardson Hall"
+  },
+  {
+    "value": "0260^1",
+    "display": "0260 - Public Restroom Men's",
+    "building": "Richardson Hall"
+  },
+  {
+    "value": "0262^1",
+    "display": "0262 - Public Restroom Women's",
+    "building": "Richardson Hall"
+  },
+  {
+    "value": "0360^1",
+    "display": "0360 - Public Restroom Men's",
+    "building": "Richardson Hall"
+  },
+  {
+    "value": "0362^1",
+    "display": "0362 - Public Restroom Women's",
+    "building": "Richardson Hall"
+  },
+  {
+    "value": "0004^1",
+    "display": "0004 - Public Restroom",
+    "building": "Research Way Building"
+  },
+  {
+    "value": "0127^46",
+    "display": "0127 - Public Restroom Women's",
+    "building": "Research Way Building"
+  },
+  {
+    "value": "0129^37",
+    "display": "0129 - Public Restroom Men's",
+    "building": "Research Way Building"
+  },
+  {
+    "value": "0139^26",
+    "display": "0139 - Public Restroom Men's",
+    "building": "Research Way Building"
+  },
+  {
+    "value": "0141^22",
+    "display": "0141 - Public Restroom Women's",
+    "building": "Research Way Building"
+  },
+  {
+    "value": "0205^1",
+    "display": "0205 - Public Restroom Women's",
+    "building": "Research Way Building"
+  },
+  {
+    "value": "0207^1",
+    "display": "0207 - Public Restroom Men's",
+    "building": "Research Way Building"
+  },
+  {
+    "value": "0213^1",
+    "display": "0213 - Public Restroom Women's",
+    "building": "Research Way Building"
+  },
+  {
+    "value": "0214^1",
+    "display": "0214 - Public Restroom Men's",
+    "building": "Research Way Building"
+  },
+  {
+    "value": "0102^1",
+    "display": "102 - Public Restroom Men's",
+    "building": "Rogers Hall"
+  },
+  {
+    "value": "0202^1",
+    "display": "202 - Public Restroom Men's",
+    "building": "Rogers Hall"
+  },
+  {
+    "value": "0218^1",
+    "display": "218 - Public Restroom Women's",
+    "building": "Rogers Hall"
+  },
+  {
+    "value": "0220^1",
+    "display": "220 - Public Restroom",
+    "building": "Rogers Hall"
+  },
+  {
+    "value": "0302^1",
+    "display": "302 - Public Restroom Men's",
+    "building": "Rogers Hall"
+  },
+  {
+    "value": "0402^1",
+    "display": "402 - Public Restroom Men's",
+    "building": "Rogers Hall"
+  },
+  {
+    "value": "0427^1",
+    "display": "427 - Public Restroom Women's",
+    "building": "Rogers Hall"
+  },
+  {
+    "value": "A0124D^1",
+    "display": "A0124D - Public Restroom",
+    "building": "Radiation Center"
+  },
+  {
+    "value": "B0126A^1",
+    "display": "B0126A - Public Restroom Women's",
+    "building": "Radiation Center"
+  },
+  {
+    "value": "B0126B^1",
+    "display": "B0126B - Public Restroom Men's",
+    "building": "Radiation Center"
+  },
+  {
+    "value": "C0108^1",
+    "display": "C0108 - Public Restroom Men's",
+    "building": "Radiation Center"
+  },
+  {
+    "value": "C0114^1",
+    "display": "C0114 - Public Restroom Women's",
+    "building": "Radiation Center"
+  },
+  {
+    "value": "0111^1",
+    "display": "0108 - Public Restroom Women's",
+    "building": "Reed Lodge"
+  },
+  {
+    "value": "0110^1",
+    "display": "0110 - Public Restroom Men's",
+    "building": "Reed Lodge"
+  },
+  {
+    "value": "0211^52",
+    "display": "0208 - Public Restroom Men's",
+    "building": "Reed Lodge"
+  },
+  {
+    "value": "0210^1",
+    "display": "0210 - Public Restroom Women's",
+    "building": "Reed Lodge"
+  },
+  {
+    "value": "0311^33",
+    "display": "0311 - Public Restroom",
+    "building": "Reed Lodge"
+  },
+  {
+    "value": "0104A^1",
+    "display": "0104A - Public Restroom Men's",
+    "building": "RAIL Lab Bldg"
+  },
+  {
+    "value": "0105A^1",
+    "display": "0105A - Public Restroom Women's",
+    "building": "RAIL Lab Bldg"
+  },
+  {
+    "value": "0105B^1",
+    "display": "0105B - Public Restroom Men's",
+    "building": "RAIL Lab Bldg"
+  },
+  {
+    "value": "0106A^1",
+    "display": "0106A - Public Restroom Women's",
+    "building": "RAIL Lab Bldg"
+  },
+  {
+    "value": "24",
+    "display": "0106A - Public Restroom",
+    "building": "Rosenfeld Laboratory"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom",
+    "building": "Radiation Center Office Building"
+  },
+  {
+    "value": "0173^1",
+    "display": "0173 - Public Restroom",
+    "building": "Ross Island Plaza Office Building"
+  },
+  {
+    "value": "J0020^1",
+    "display": "J020 - Public Restroom",
+    "building": "Sackett Hall"
+  },
+  {
+    "value": "J0102B^1",
+    "display": "J102B - Public Restroom",
+    "building": "Sackett Hall"
+  },
+  {
+    "value": "0059B^1",
+    "display": "059B - Public Restroom",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0115B^1",
+    "display": "115B - Public Restroom",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0133^2",
+    "display": "133 - Public Restroom Men's",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0135^1",
+    "display": "135 - Public Restroom Women's",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0159B^1",
+    "display": "159B - Public Restroom",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0215B^1",
+    "display": "215B - Public Restroom",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0233^2",
+    "display": "233 - Public Restroom Men's",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0235^2",
+    "display": "235 - Public Restroom Women's",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0259B^1",
+    "display": "259B - Public Restroom",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0315B^1",
+    "display": "315B - Public Restroom",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0333^2",
+    "display": "333 - Public Restroom Men's",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0335^1",
+    "display": "335 - Public Restroom Women's",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0359B^1",
+    "display": "359B - Public Restroom",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0433A^1",
+    "display": "433A - Public Restroom Women's",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0433B^1",
+    "display": "433B - Public Restroom Men's",
+    "building": "Strand Agriculture Hall"
+  },
+  {
+    "value": "0014^1",
+    "display": "0014 - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0035^1",
+    "display": "0035 - Public Restroom Women's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0037^1",
+    "display": "0037 - Public Restroom Men's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "510",
+    "display": "0061 - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "524",
+    "display": "0081 - Public Restroom Men's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "526",
+    "display": "0083 - Public Restroom Women's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0143^1",
+    "display": "0143 - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0145^1",
+    "display": "0145 - Public Restroom Women's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0215^1",
+    "display": "0215 - Public Restroom Women's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0217^1",
+    "display": "0217 - Public Restroom Men's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0237^1",
+    "display": "0237 - Public Restroom Women's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0239^1",
+    "display": "0239 - Public Restroom Men's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0304D^3",
+    "display": "0304D - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0312C^1",
+    "display": "0312C - Public Restroom Women's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0339A^1",
+    "display": "0339A - Public Restroom Men's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0412B^1",
+    "display": "0412B - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0412D^1",
+    "display": "0412D - Public Restroom Men's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0412E^1",
+    "display": "0412E - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0432A^1",
+    "display": "0432A - Public Restroom Women's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0432B^1",
+    "display": "0432B - Public Restroom Men's",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0500B^1",
+    "display": "0500B - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0510C^1",
+    "display": "0510C - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0510D^1",
+    "display": "0510D - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0522A^1",
+    "display": "0522A - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0522B^1",
+    "display": "0522B - Public Restroom",
+    "building": "Snell Hall"
+  },
+  {
+    "value": "0003^1",
+    "display": "0003 - Public Restroom",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0016^1",
+    "display": "0016 - Public Restroom Men's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0017^1",
+    "display": "0017 - Public Restroom Women's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0116^1",
+    "display": "0116 - Public Restroom Men's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0117^1",
+    "display": "0117 - Public Restroom Women's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0119^1",
+    "display": "0119 - Public Restroom",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0216^1",
+    "display": "0216 - Public Restroom Men's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0217^1",
+    "display": "0217 - Public Restroom Women's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0219^2",
+    "display": "0219 - Public Restroom",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0316^1",
+    "display": "0316 - Public Restroom Men's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0317^1",
+    "display": "0317 - Public Restroom Women's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0319^1",
+    "display": "0319 - Public Restroom",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0416^1",
+    "display": "0416 - Public Restroom Men's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0417^1",
+    "display": "0417 - Public Restroom Women's",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0419^1",
+    "display": "0419 - Public Restroom",
+    "building": "Student Experience Center"
+  },
+  {
+    "value": "0108^1",
+    "display": "0108 - Public Restroom Women's",
+    "building": "Sinnhuber Aquatic Research Lab"
+  },
+  {
+    "value": "0108A^1",
+    "display": "0108A - Public Restroom Men's",
+    "building": "Sinnhuber Aquatic Research Lab"
+  },
+  {
+    "value": "0110^1",
+    "display": "0110 - Public Restroom Men's",
+    "building": "Sinnhuber Aquatic Research Lab"
+  },
+  {
+    "value": "0112^1",
+    "display": "0112 - Public Restroom Women's",
+    "building": "Sinnhuber Aquatic Research Lab"
+  },
+  {
+    "value": "0130C^1",
+    "display": "0130C - Public Restroom",
+    "building": "Sinnhuber Aquatic Research Lab"
+  },
+  {
+    "value": "0001^1",
+    "display": "0001 - Public Restroom Men's",
+    "building": "Shepard Hall"
+  },
+  {
+    "value": "0004G^1",
+    "display": "0004G - Public Restroom Women's",
+    "building": "Shepard Hall"
+  },
+  {
+    "value": "0208A^1",
+    "display": "0208A - Public Restroom Women's",
+    "building": "Shepard Hall"
+  },
+  {
+    "value": "0103^1",
+    "display": "0103 - Public Restroom Women's",
+    "building": "Seed Laboratory"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom Men's",
+    "building": "Seed Laboratory"
+  },
+  {
+    "value": "12",
+    "display": "0110 - Public Restroom",
+    "building": "SB Office & Storage"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom",
+    "building": "SM Entomology"
+  },
+  {
+    "value": "0101^1",
+    "display": "0101 - Public Restroom Men's",
+    "building": "Softball Field Restrooms"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom Women's",
+    "building": "Softball Field Restrooms"
+  },
+  {
+    "value": "A0104^1",
+    "display": "A0104 - Public Restroom",
+    "building": "Swine Center"
+  },
+  {
+    "value": "0005^1",
+    "display": "0005 - Public Restroom Women's",
+    "building": "Softball Stadium"
+  },
+  {
+    "value": "0006^1",
+    "display": "0006 - Public Restroom Men's",
+    "building": "Softball Stadium"
+  },
+  {
+    "value": "0111^1",
+    "display": "0111 - Public Restroom",
+    "building": "SL Seafoods Laboratory - Astoria"
+  },
+  {
+    "value": "0113^1",
+    "display": "0113 - Public Restroom",
+    "building": "SL Seafoods Laboratory - Astoria"
+  },
+  {
+    "value": "0135B^1",
+    "display": "0135B - Public Restroom Men's",
+    "building": "SB Office/Headquarters"
+  },
+  {
+    "value": "0135C^1",
+    "display": "0135C - Public Restroom Women's",
+    "building": "SB Office/Headquarters"
+  },
+  {
+    "value": "0142^1",
+    "display": "0142 - Public Restroom",
+    "building": "SB Office/Headquarters"
+  },
+  {
+    "value": "0144^1",
+    "display": "0144 - Public Restroom",
+    "building": "SB Office/Headquarters"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom",
+    "building": "Science and Education Bldg"
+  },
+  {
+    "value": "0204^1",
+    "display": "0204 - Public Restroom",
+    "building": "Science and Education Bldg"
+  },
+  {
+    "value": "1083^1",
+    "display": "1083 - Public Restroom Men's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "1085^1",
+    "display": "1085 - Public Restroom Women's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "1565^1",
+    "display": "1565 - Public Restroom",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "1566^1",
+    "display": "1566 - Public Restroom Women's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "1569^1",
+    "display": "1569 - Public Restroom Men's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "2566^1",
+    "display": "2566 - Public Restroom Women's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "2569^1",
+    "display": "2569 - Public Restroom Men's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "3565^1",
+    "display": "3565 - Public Restroom",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "3566^1",
+    "display": "3566 - Public Restroom Women's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "3569^1",
+    "display": "3569 - Public Restroom Men's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "4566^1",
+    "display": "4566 - Public Restroom Women's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "4569^1",
+    "display": "4569 - Public Restroom Men's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "5565^1",
+    "display": "5565 - Public Restroom",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "5566^1",
+    "display": "5566 - Public Restroom Women's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "5569^1",
+    "display": "5569 - Public Restroom Men's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "6566^1",
+    "display": "6566 - Public Restroom Women's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "6569^1",
+    "display": "6569 - Public Restroom Men's",
+    "building": "The Valley Library"
+  },
+  {
+    "value": "0107^1",
+    "display": "0107 - Public Restroom",
+    "building": "Tebeau Hall"
+  },
+  {
+    "value": "0109^1",
+    "display": "0109 - Public Restroom",
+    "building": "Tebeau Hall"
+  },
+  {
+    "value": "0101B^1",
+    "display": "101B - Public Restroom Women's",
+    "building": "Tykeson Hall"
+  },
+  {
+    "value": "0101C^1",
+    "display": "101C - Public Restroom Men's",
+    "building": "Tykeson Hall"
+  },
+  {
+    "value": "0101F^1",
+    "display": "101F - Public Restroom",
+    "building": "Tykeson Hall"
+  },
+  {
+    "value": "0201B^1",
+    "display": "201B - Public Restroom Women's",
+    "building": "Tykeson Hall"
+  },
+  {
+    "value": "0201C^1",
+    "display": "201C - Public Restroom Men's",
+    "building": "Tykeson Hall"
+  },
+  {
+    "value": "0301B^1",
+    "display": "301B - Public Restroom Women's",
+    "building": "Tykeson Hall"
+  },
+  {
+    "value": "0301C^1",
+    "display": "301C - Public Restroom Men's",
+    "building": "Tykeson Hall"
+  },
+  {
+    "value": "0121^47",
+    "display": "0121 - Public Restroom",
+    "building": "Team Oregon Building"
+  },
+  {
+    "value": "0123^46",
+    "display": "0123 - Public Restroom Men's",
+    "building": "Team Oregon Building"
+  },
+  {
+    "value": "0127^36",
+    "display": "0127 - Public Restroom Women's",
+    "building": "Team Oregon Building"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom Men's",
+    "building": "Twin Oaks Technology Center"
+  },
+  {
+    "value": "0105^1",
+    "display": "0105 - Public Restroom Women's",
+    "building": "Twin Oaks Technology Center"
+  },
+  {
+    "value": "0104^1",
+    "display": "0104 - Public Restroom Men's",
+    "building": "University Plaza "
+  },
+  {
+    "value": "0108^1",
+    "display": "0108 - Public Restroom Women's",
+    "building": "University Plaza "
+  },
+  {
+    "value": "0112^1",
+    "display": "0112 - Public Restroom Men's",
+    "building": "University Plaza "
+  },
+  {
+    "value": "0244^1",
+    "display": "0244 - Public Restroom Men's",
+    "building": "University Plaza "
+  },
+  {
+    "value": "0257^1",
+    "display": "0257 - Public Restroom Women's",
+    "building": "University Plaza "
+  },
+  {
+    "value": "0277^1",
+    "display": "0277 - Public Restroom Men's",
+    "building": "University Plaza "
+  },
+  {
+    "value": "0309^1",
+    "display": "0309 - Public Restroom Women's",
+    "building": "University Plaza "
+  },
+  {
+    "value": "0311^1",
+    "display": "0311 - Public Restroom Men's",
+    "building": "University Plaza "
+  },
+  {
+    "value": "0106^1",
+    "display": "0106 - Public Restroom Men's",
+    "building": "UHDS Maintenance Center"
+  },
+  {
+    "value": "0108^1",
+    "display": "0108 - Public Restroom Women's",
+    "building": "UHDS Maintenance Center"
+  },
+  {
+    "value": "0105^114",
+    "display": "0105 - Public Restroom Men's",
+    "building": "Umatilla Hall"
+  },
+  {
+    "value": "0109^85",
+    "display": "0109 - Public Restroom Women's",
+    "building": "Umatilla Hall"
+  },
+  {
+    "value": "239",
+    "display": "0036 - Public Restroom",
+    "building": "Valley Football Center"
+  },
+  {
+    "value": "165",
+    "display": "0112A - Public Restroom",
+    "building": "Valley Football Center"
+  },
+  {
+    "value": "0227^1",
+    "display": "0227 - Public Restroom",
+    "building": "Valley Football Center"
+  },
+  {
+    "value": "0229^1",
+    "display": "0229 - Public Restroom Men's",
+    "building": "Valley Football Center"
+  },
+  {
+    "value": "135",
+    "display": "0231 - Public Restroom Women's",
+    "building": "Valley Football Center"
+  },
+  {
+    "value": "111",
+    "display": "0335A - Public Restroom",
+    "building": "Valley Football Center"
+  },
+  {
+    "value": "113",
+    "display": "0343 - Public Restroom Men's",
+    "building": "Valley Football Center"
+  },
+  {
+    "value": "115",
+    "display": "0345 - Public Restroom Women's",
+    "building": "Valley Football Center"
+  },
+  {
+    "value": "18",
+    "display": "0115A - Public Restroom",
+    "building": "Vet Dairy Barn"
+  },
+  {
+    "value": "0119^1",
+    "display": "0119 - Public Restroom Women's",
+    "building": "Vet Research Lab"
+  },
+  {
+    "value": "0123^1",
+    "display": "0123 - Public Restroom Men's",
+    "building": "Vet Research Lab"
+  },
+  {
+    "value": "0101A^1",
+    "display": "0101A - Public Restroom",
+    "building": "VF Vegetable Lab Building"
+  },
+  {
+    "value": "0112^1",
+    "display": "0112 - Public Restroom",
+    "building": "VF Vegetable Lab Building"
+  },
+  {
+    "value": "0114^1",
+    "display": "0114 - Public Restroom",
+    "building": "VF Vegetable Lab Building"
+  },
+  {
+    "value": "0107A^1",
+    "display": "0107A - Public Restroom Men's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0136A^4",
+    "display": "0136A - Public Restroom Women's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0211B^1",
+    "display": "0211B - Public Restroom Women's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0253B^1",
+    "display": "0253B - Public Restroom Men's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0307A^1",
+    "display": "0307A - Public Restroom Men's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0352A^1",
+    "display": "0352A - Public Restroom Women's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0407B^1",
+    "display": "0407B - Public Restroom Women's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0459B^1",
+    "display": "0459B - Public Restroom Men's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0505A^1",
+    "display": "0505A - Public Restroom Women's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0539B^1",
+    "display": "0539B - Public Restroom Men's",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "0605^1",
+    "display": "0605 - Public Restroom",
+    "building": "Weniger Hall"
+  },
+  {
+    "value": "462",
+    "display": "C504 - Public Restroom",
+    "building": "Weatherford Hall"
+  },
+  {
+    "value": "463",
+    "display": "C506 - Public Restroom",
+    "building": "Weatherford Hall"
+  },
+  {
+    "value": "793",
+    "display": "EG003 - Public Restroom",
+    "building": "Weatherford Hall"
+  },
+  {
+    "value": "794",
+    "display": "EG004 - Public Restroom",
+    "building": "Weatherford Hall"
+  },
+  {
+    "value": "0100^1",
+    "display": "0100 - Public Restroom Men's",
+    "building": "Women's Building"
+  },
+  {
+    "value": "0116A^1",
+    "display": "0116A - Public Restroom Women's",
+    "building": "Women's Building"
+  },
+  {
+    "value": "0067^1",
+    "display": "0067 - Public Restroom Men's",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0071^1",
+    "display": "0071 - Public Restroom",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0121^1",
+    "display": "0121 - Public Restroom Men's",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0123^1",
+    "display": "0123 - Public Restroom",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0129^1",
+    "display": "0129 - Public Restroom Women's",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0144^1",
+    "display": "0144 - Public Restroom Women's",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0147^1",
+    "display": "0147 - Public Restroom Men's",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0167A^1",
+    "display": "0167A - Public Restroom",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "261",
+    "display": "0169 - Public Restroom",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0209^1",
+    "display": "0209 - Public Restroom Men's",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0211^1",
+    "display": "0211 - Public Restroom Women's",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0305^1",
+    "display": "0305 - Public Restroom Men's",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0307^1",
+    "display": "0307 - Public Restroom",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0313^1",
+    "display": "0313 - Public Restroom Women's",
+    "building": "Withycombe Hall"
+  },
+  {
+    "value": "0121A^1",
+    "display": "0121A - Public Restroom Women's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0142^1",
+    "display": "0142 - Public Restroom",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0207^1",
+    "display": "0207 - Public Restroom Men's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0208^1",
+    "display": "0208 - Public Restroom Women's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0276^1",
+    "display": "0276 - Public Restroom Women's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0320C^1",
+    "display": "0320C - Public Restroom Men's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0331A^1",
+    "display": "0331A - Public Restroom Men's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0351^1",
+    "display": "0351 - Public Restroom Women's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0429^14",
+    "display": "0429 - Public Restroom Men's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0430^18",
+    "display": "0430 - Public Restroom Men's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0447^5",
+    "display": "0447 - Public Restroom Women's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0448^8",
+    "display": "0448 - Public Restroom Women's",
+    "building": "Waldo Hall"
+  },
+  {
+    "value": "0109^1",
+    "display": "0109 - Public Restroom Men's",
+    "building": "Wilson Hall"
+  },
+  {
+    "value": "0110^1",
+    "display": "0110 - Public Restroom Women's",
+    "building": "Wilson Hall"
+  },
+  {
+    "value": "364",
+    "display": "0126B - Public Restroom",
+    "building": "Wilson Hall"
+  },
+  {
+    "value": "0128^1",
+    "display": "0128 - Public Restroom",
+    "building": "Wilson Hall"
+  },
+  {
+    "value": "285",
+    "display": "0122 - Public Restroom",
+    "building": "West Hall"
+  },
+  {
+    "value": "286",
+    "display": "0123 - Public Restroom",
+    "building": "West Hall"
+  },
+  {
+    "value": "0113^1",
+    "display": "0113 - Public Restroom Men's",
+    "building": "Wiegand Hall"
+  },
+  {
+    "value": "0119^1",
+    "display": "0119 - Public Restroom Women's",
+    "building": "Wiegand Hall"
+  },
+  {
+    "value": "0217^1",
+    "display": "0217 - Public Restroom Women's",
+    "building": "Wiegand Hall"
+  },
+  {
+    "value": "0249^1",
+    "display": "0249 - Public Restroom Men's",
+    "building": "Wiegand Hall"
+  },
+  {
+    "value": "0030^1",
+    "display": "0030 - Public Restroom Men's",
+    "building": "Wilkinson Hall"
+  },
+  {
+    "value": "0110A^1",
+    "display": "0110A - Public Restroom",
+    "building": "Wilkinson Hall"
+  },
+  {
+    "value": "0110C^1",
+    "display": "0110C - Public Restroom Women's",
+    "building": "Wilkinson Hall"
+  },
+  {
+    "value": "0110G^1",
+    "display": "0110G - Public Restroom Men's",
+    "building": "Wilkinson Hall"
+  },
+  {
+    "value": "0122^1",
+    "display": "0122 - Public Restroom Men's",
+    "building": "Wilkinson Hall"
+  },
+  {
+    "value": "0224^1",
+    "display": "0224 - Public Restroom Women's",
+    "building": "Wilkinson Hall"
+  },
+  {
+    "value": "45",
+    "display": "141 - Public Restroom",
+    "building": "Western Shops"
+  },
+  {
+    "value": "46",
+    "display": "142 - Public Restroom",
+    "building": "Western Shops"
+  },
+  {
+    "value": "47",
+    "display": "143 - Public Restroom",
+    "building": "Western Shops"
+  },
+  {
+    "value": "48",
+    "display": "144 - Public Restroom",
+    "building": "Western Shops"
+  },
+  {
+    "value": "10",
+    "display": "241 - Public Restroom",
+    "building": "Western Shops"
+  },
+  {
+    "value": "11",
+    "display": "242 - Public Restroom",
+    "building": "Western Shops"
+  },
+  {
+    "value": "12",
+    "display": "243 - Public Restroom",
+    "building": "Western Shops"
+  },
+  {
+    "value": "1224^1",
+    "display": "1225 - Public Restroom",
+    "building": "West Greenhouse (W13-16)"
+  },
+  {
+    "value": "80",
+    "display": "106 - Public Restroom",
+    "building": "Western Building"
+  },
+  {
+    "value": "0106A^1",
+    "display": "106A - Public Restroom",
+    "building": "Western Building"
+  },
+  {
+    "value": "0108^1",
+    "display": "107 - Public Restroom Men's",
+    "building": "Western Building"
+  },
+  {
+    "value": "0110^1",
+    "display": "108 - Public Restroom Women's",
+    "building": "Western Building"
+  },
+  {
+    "value": "165",
+    "display": "146A - Public Restroom Men's",
+    "building": "Western Building"
+  },
+  {
+    "value": "167",
+    "display": "146C - Public Restroom Women's",
+    "building": "Western Building"
+  },
+  {
+    "value": "1070E^1",
+    "display": "1070E - Public Restroom Men's",
+    "building": "West Greenhouse (W6&7)"
+  },
+  {
+    "value": "1070F^1",
+    "display": "1070F - Public Restroom Women's",
+    "building": "West Greenhouse (W6&7)"
+  },
+  {
+    "value": "0102^1",
+    "display": "0102 - Public Restroom",
+    "building": "WOODHALL VINEYARD SHOP BUILDING"
+  },
+  {
+    "value": "0105^1",
+    "display": "0105 - Public Restroom",
+    "building": "WF Sheep Research Facility"
+  }
+]
