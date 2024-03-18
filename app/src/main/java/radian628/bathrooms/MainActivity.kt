@@ -8,23 +8,12 @@ import android.view.View
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.widget.FrameLayout
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.viewinterop.AndroidView
 import com.google.firebase.Firebase
 import com.google.firebase.firestore.firestore
-import radian628.bathrooms.ui.theme.MyApplicationTheme
-
-
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 
 class MainActivity : AppCompatActivity() {
@@ -43,6 +32,18 @@ class MainActivity : AppCompatActivity() {
                 document -> System.out.println("loaded test data: ${document.data}")
             }
 
+        val scope = CoroutineScope(Dispatchers.IO)
+
+        scope.launch {
+            System.out.println("LAUNCHING COROUTINE???")
+
+            val locationsRepo = LocationsAPIRepository()
+
+            System.out.println("LAUNCHING COROUTINE 2????")
+
+            System.out.println(locationsRepo.locations("Kelley")?.execute()?.body())
+        }
+
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, SearchListViewFragment()) // Use the ID of your FrameLayout container
@@ -53,11 +54,4 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
     }
 
-}
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
 }
