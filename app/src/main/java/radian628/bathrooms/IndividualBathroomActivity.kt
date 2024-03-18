@@ -7,13 +7,7 @@ import android.widget.LinearLayout
 import android.widget.RatingBar
 import android.widget.TextView
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.ui.Modifier
 import androidx.fragment.app.Fragment
-import radian628.bathrooms.ui.theme.MyApplicationTheme
 import kotlin.math.roundToInt
 
 class IndividualBathroomActivityFragment : Fragment(R.layout.individual_bathroom_fragment) {
