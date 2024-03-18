@@ -127,6 +127,28 @@ class LocationsAPIRepository() {
         return null
     }
 
+    fun getAllBuildings(): List<Pair<String, Pair<Double, Double>>>? {
+        val token = getLocationsAPIToken() ?: return null
+
+        val response = locationService.locations(token, "").execute()
+
+        if (response.isSuccessful) {
+            val buildingsData = response.body()?.data
+            val buildingsList = mutableListOf<Pair<String, Pair<Double, Double>>>()
+
+            buildingsData?.forEach { buildingData ->
+                val name = buildingData.attributes.name
+                val latitude = buildingData.attributes.latitude.toDouble()
+                val longitude = buildingData.attributes.longitude.toDouble()
+                buildingsList.add(name to (latitude to longitude))
+            }
+
+            return buildingsList
+        }
+
+        return null
+    }
+
     fun locations(building: String): Call<LocationsAPIBuildings>? {
         val token = getLocationsAPIToken() ?: return null
 
