@@ -44,11 +44,11 @@ class MainActivity : AppCompatActivity() {
             System.out.println(locationsRepo.locations("Kelley")?.execute()?.body())
         }
 
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, SearchListViewFragment()) // Use the ID of your FrameLayout container
-                .commit()
-        }
+//        if (savedInstanceState == null) {
+//            supportFragmentManager.beginTransaction()
+//                .replace(R.id.fragment_container, SearchListViewFragment()) // Use the ID of your FrameLayout container
+//                .commit()
+//        }
     }
     override fun onStart() {
         super.onStart()
