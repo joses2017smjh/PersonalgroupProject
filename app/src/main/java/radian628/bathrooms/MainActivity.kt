@@ -46,12 +46,9 @@ class MainActivity : AppCompatActivity() {
 
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, SearchListViewFragment()) // Use the ID of your FrameLayout container
+                .replace(R.id.fragment_container,MapsFragment()) // Use the ID of your FrameLayout container
                 .commit()
         }
-    }
-    override fun onStart() {
-        super.onStart()
     }
 
 }

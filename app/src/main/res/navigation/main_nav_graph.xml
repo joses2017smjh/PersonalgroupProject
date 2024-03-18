@@ -2,10 +2,13 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main_nav_graph"
-    app:startDestination="@id/individual_bathroom_fragment">
+    app:startDestination="@id/fragment_maps">
     <fragment
         android:id="@+id/individual_bathroom_fragment"
         android:name="radian628.bathrooms.IndividualBathroomActivityFragment">
-
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_maps"
+        android:name="radian628.bathrooms.MapsFragment">
     </fragment>
 </navigation>
