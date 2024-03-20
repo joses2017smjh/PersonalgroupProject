@@ -1,0 +1,29 @@
+<!-- custom_info_window.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_info_window_background"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:clickable="true">
+
+    <!-- Close button -->
+    <ImageView
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:contentDescription="Close" />
+    <!-- Building name -->
+    <TextView
+        android:id="@+id/buildingNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:clickable="false"/>
+
+
+</LinearLayout>
