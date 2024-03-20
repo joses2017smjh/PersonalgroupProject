@@ -146,6 +146,7 @@ class LocationsAPIRepository() {
         return null
     }
 
+
     fun locations(
         building: String?,
         lat: Double?,
@@ -155,6 +156,7 @@ class LocationsAPIRepository() {
         page_size: Int?,
         page_number: Int?
     ): Call<LocationsAPIBuildings>? {
+
         val token = getLocationsAPIToken() ?: return null
 
         return locationService.locations(
