@@ -1,5 +1,6 @@
 package radian628.bathrooms
 
+import android.content.Intent
 import androidx.fragment.app.Fragment
 import android.os.Bundle
 import android.util.Log
@@ -33,6 +34,18 @@ class MapsFragment : Fragment() {
         googleMap = map
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(oregonStateUniversity, 17f))
         fetchBuildingsAndAddMarkers()
+        //TODO implement completely once the building list view is available
+       /* googleMap.setOnInfoWindowClickListener { marker ->
+            // Retrieve the building data associated with the marker
+            val buildingData = marker.tag as? Building
+            // Check if the building data is not null
+            buildingData?.let {
+                val buildingId = buildingData.name
+                val intent = Intent(context, IndividualBuildingActivity::class.java)
+                intent.putExtra("building_name", buildingId)
+                startActivity(intent)
+            }
+        }*/
     }
 
     override fun onCreateView(
