@@ -41,7 +41,15 @@ class MainActivity : AppCompatActivity() {
 
             System.out.println("LAUNCHING COROUTINE 2????")
 
-            System.out.println(locationsRepo.locations("Kelley")?.execute()?.body())
+            System.out.println(locationsRepo.locations(
+                building = null,
+                distance = null,
+                distanceUnit = null,
+                lat = null,
+                lon = null,
+                page_number = 3,
+                page_size = 10
+            )?.execute()?.body())
         }
 
 //        if (savedInstanceState == null) {
