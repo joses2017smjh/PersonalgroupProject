@@ -41,14 +41,22 @@ class MainActivity : AppCompatActivity() {
 
             System.out.println("LAUNCHING COROUTINE 2????")
 
-            System.out.println(locationsRepo.locations("Kelley")?.execute()?.body())
+            System.out.println(locationsRepo.locations(
+                building = null,
+                distance = null,
+                distanceUnit = null,
+                lat = null,
+                lon = null,
+                page_number = 3,
+                page_size = 10
+            )?.execute()?.body())
         }
 
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container,MapsFragment()) // Use the ID of your FrameLayout container
-                .commit()
-        }
+//        if (savedInstanceState == null) {
+//            supportFragmentManager.beginTransaction()
+//                .replace(R.id.fragment_container, SearchListViewFragment()) // Use the ID of your FrameLayout container
+//                .commit()
+//        }
     }
 
 }
