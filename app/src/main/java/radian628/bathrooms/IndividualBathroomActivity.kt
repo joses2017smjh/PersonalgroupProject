@@ -95,10 +95,9 @@ class IndividualBathroomActivityFragment : Fragment(R.layout.individual_bathroom
                     buildingAndFloorView.text = view.context.getString(
                         R.string.floor_and_name,
                         building,
-                        // TODO: replace with floor number if possible
-                        roomNum)
+                        "Floor ${roomNum[0]}")
 
-                    bathroomRoomNumberView.text = roomNum
+                    bathroomRoomNumberView.text = "Room ${roomNum}"
                     bathroomRatingStarsView.rating = ((
                             document?.getDouble("rating")
                             ) ?: 0.0).toFloat()
