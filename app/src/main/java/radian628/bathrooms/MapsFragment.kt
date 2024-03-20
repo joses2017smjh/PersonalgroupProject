@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -30,7 +31,7 @@ class MapsFragment : Fragment() {
     private val TAG = "MapsFragment"
     private val callback = OnMapReadyCallback { map ->
         googleMap = map
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(oregonStateUniversity, 16f))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(oregonStateUniversity, 17f))
         fetchBuildingsAndAddMarkers()
     }
 
@@ -46,6 +47,12 @@ class MapsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
         mapFragment?.getMapAsync(callback)
+
+        val buttonMapView = view.findViewById<Button>(R.id.buttonMapView)
+        val buttonListView = view.findViewById<Button>(R.id.buttonListView)
+
+        buttonMapView.setBackgroundResource(R.drawable.button_bg_inset)
+        buttonListView.setBackgroundResource(R.drawable.button_bg_outset)
     }
 
     private fun fetchBuildingsAndAddMarkers() {
@@ -57,8 +64,8 @@ class MapsFragment : Fragment() {
                     distanceUnit = null,
                     lat = null,
                     lon = null,
-                    page_number = 3,
-                    page_size = 10
+                    page_number = 1,
+                    page_size = 200
                 )?.execute()
 
                 if (response?.isSuccessful == true) {
@@ -81,24 +88,18 @@ class MapsFragment : Fragment() {
                                 // Set custom info window adapter
                                 googleMap.setInfoWindowAdapter(object : GoogleMap.InfoWindowAdapter {
                                     override fun getInfoWindow(p0: Marker): View? {
-                                        return null // Return null to use default info window
-                                    }
-
-                                    override fun getInfoContents(p0: Marker): View? {
                                         val infoView = layoutInflater.inflate(R.layout.custom_info_window, null)
                                         // Get views
                                         val buildingNameTextView: TextView = infoView.findViewById(R.id.buildingNameTextView)
-                                        val closeButton: ImageView = infoView.findViewById(R.id.closeButton)
 
                                         // Set building name
                                         buildingNameTextView.text = p0.title ?: ""
 
-                                        // Set click listener for close button
-                                        closeButton.setOnClickListener {
-                                            p0.hideInfoWindow() // Close the info window
-                                        }
-
                                         return infoView
+                                    }
+
+                                    override fun getInfoContents(p0: Marker): View? {
+                                        return null
                                     }
                                 })
 
