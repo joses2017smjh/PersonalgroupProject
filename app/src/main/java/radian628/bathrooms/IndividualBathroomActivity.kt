@@ -73,9 +73,9 @@ class IndividualBathroomActivityFragment : Fragment(R.layout.individual_bathroom
         Firebase.firestore
             .collection("Bathroom")
             .document(bathroomId)
-            .get()
-            .addOnSuccessListener {
-                document -> run {
+            .addSnapshotListener {
+                document, exception -> run {
+
                     val genderView = view.findViewById<ImageView>(R.id.bathroom_gender_icon)
                     val buildingAndFloorView = view.findViewById<TextView>(
                         R.id.bathroom_building_and_floor
@@ -89,8 +89,8 @@ class IndividualBathroomActivityFragment : Fragment(R.layout.individual_bathroom
 
                     // adapter.updateReviews()
 
-                    val roomNum = document.data?.get("room_number") as? String ?: "???";
-                    val building = document.data?.get("building_name") as? String ?: "Unknown Building"
+                    val roomNum = document?.data?.get("room_number") as? String ?: "???";
+                    val building = document?.data?.get("building_name") as? String ?: "Unknown Building"
 
                     buildingAndFloorView.text = view.context.getString(
                         R.string.floor_and_name,
@@ -100,7 +100,7 @@ class IndividualBathroomActivityFragment : Fragment(R.layout.individual_bathroom
 
                     bathroomRoomNumberView.text = roomNum
                     bathroomRatingStarsView.rating = ((
-                            document.getDouble("rating")
+                            document?.getDouble("rating")
                             ) ?: 0.0).toFloat()
                 }
             }
@@ -110,12 +110,11 @@ class IndividualBathroomActivityFragment : Fragment(R.layout.individual_bathroom
             .whereEqualTo("bathroom_id",
                     Firebase.firestore.collection("Bathroom").document(bathroomId)
                 )
-            .get()
-            .addOnSuccessListener {
-                documents -> run {
+            .addSnapshotListener {
+                documents, exception -> run {
                     val reviews = mutableListOf<Review>()
 
-                    for (doc in documents.documents) {
+                    for (doc in documents?.documents ?: mutableListOf()) {
                         reviews.add(
                             Review(
                                 bathroomId = bathroomId,
