@@ -6,11 +6,15 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.TextView
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -67,9 +71,38 @@ class MapsFragment : Fragment() {
                             val markerOptions = MarkerOptions()
                                 .position(position)
                                 .title(buildingData.attributes.name)
+                                //.icon(BitmapDescriptorFactory.fromResource(R.drawable.custom_marker_icon))
+
                             // Switch to the main thread before adding the marker
+
                             launch(Dispatchers.Main) {
                                 googleMap.addMarker(markerOptions)
+
+                                // Set custom info window adapter
+                                googleMap.setInfoWindowAdapter(object : GoogleMap.InfoWindowAdapter {
+                                    override fun getInfoWindow(p0: Marker): View? {
+                                        return null // Return null to use default info window
+                                    }
+
+                                    override fun getInfoContents(p0: Marker): View? {
+                                        val infoView = layoutInflater.inflate(R.layout.custom_info_window, null)
+                                        // Get views
+                                        val buildingNameTextView: TextView = infoView.findViewById(R.id.buildingNameTextView)
+                                        val closeButton: ImageView = infoView.findViewById(R.id.closeButton)
+
+                                        // Set building name
+                                        buildingNameTextView.text = p0.title ?: ""
+
+                                        // Set click listener for close button
+                                        closeButton.setOnClickListener {
+                                            p0.hideInfoWindow() // Close the info window
+                                        }
+
+                                        return infoView
+                                    }
+                                })
+
+
                             }
                         }
                     }
