@@ -60,14 +60,14 @@ class MapsFragment : Fragment() {
     private fun addMarkersForBuildings() {
         // Ensure googleMap is initialized before proceeding
         if (::googleMap.isInitialized) {
-            val buildings = repository.getAllBuildings()
+            //val buildings = repository.getAllBuildings()
 
-            buildings?.forEach { (buildingName, coordinates) ->
+            /*buildings?.forEach { (buildingName, coordinates) ->
                 val markerOptions = MarkerOptions()
                     .position(LatLng(coordinates.first, coordinates.second))
                     .title(buildingName)
                 googleMap.addMarker(markerOptions)
-            }
+            }*/
         }
     }
 }
