@@ -1,46 +1,33 @@
 package radian628.bathrooms
 
 import androidx.fragment.app.Fragment
-
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MarkerOptions
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class MapsFragment : Fragment() {
     private lateinit var googleMap: GoogleMap
-
-    private val oregonStateUniversity = LatLng(44.5646, -123.2796) // Coordinates for Oregon State University
-    private val oregonStateUniversityBounds = LatLngBounds(
-        LatLng(44.557, -123.286),  // Southwest bound of the campus area
-        LatLng(44.573, -123.27)    // Northeast bound of the campus area
-    )
-
     private val repository = LocationsAPIRepository()
-
+    private val oregonStateUniversity = LatLng(44.5646, -123.2796) // Coordinates for Oregon State University
+    private val TAG = "MapsFragment"
     private val callback = OnMapReadyCallback { map ->
-
-
-        /**
-         * Manipulates the map once available.
-         * This callback is triggered when the map is ready to be used.
-         * This is where we can add markers or lines, add listeners or move the camera.
-         * In this case, we just add a marker near Sydney, Australia.
-         * If Google Play services is not installed on the device, the user will be prompted to
-         * install it inside the SupportMapFragment. This method will only be triggered once the
-         * user has installed Google Play services and returned to the app.
-         */
-        googleMap = map // Assigning the initialized GoogleMap to the global variable
+        googleMap = map
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(oregonStateUniversity, 16f))
-        addMarkersForBuildings()
+        fetchBuildingsAndAddMarkers()
     }
 
     override fun onCreateView(
@@ -57,17 +44,42 @@ class MapsFragment : Fragment() {
         mapFragment?.getMapAsync(callback)
     }
 
-    private fun addMarkersForBuildings() {
-        // Ensure googleMap is initialized before proceeding
-        if (::googleMap.isInitialized) {
-            //val buildings = repository.getAllBuildings()
+    private fun fetchBuildingsAndAddMarkers() {
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val response = repository.locations(
+                    building = null,
+                    distance = null,
+                    distanceUnit = null,
+                    lat = null,
+                    lon = null,
+                    page_number = 3,
+                    page_size = 10
+                )?.execute()
 
-            /*buildings?.forEach { (buildingName, coordinates) ->
-                val markerOptions = MarkerOptions()
-                    .position(LatLng(coordinates.first, coordinates.second))
-                    .title(buildingName)
-                googleMap.addMarker(markerOptions)
-            }*/
+                if (response?.isSuccessful == true) {
+                    val buildings = response.body()?.data
+                    buildings?.forEach { buildingData ->
+                        val latitude = buildingData.attributes.latitude?.toDoubleOrNull()
+                        val longitude = buildingData.attributes.longitude?.toDoubleOrNull()
+                        if (latitude != null && longitude != null) {
+                            val position = LatLng(latitude, longitude)
+                            val markerOptions = MarkerOptions()
+                                .position(position)
+                                .title(buildingData.attributes.name)
+                            // Switch to the main thread before adding the marker
+                            launch(Dispatchers.Main) {
+                                googleMap.addMarker(markerOptions)
+                            }
+                        }
+                    }
+                } else {
+                    Log.e(TAG, "API call unsuccessful: ${response?.message()}")
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Error fetching buildings: ${e.message}", e)
+            }
         }
     }
+
 }
