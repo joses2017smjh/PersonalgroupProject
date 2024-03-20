@@ -12,6 +12,8 @@ public class Review(
     // ranges from 1 to 5
     val rating: Double,
 
+    val title: String,
+
     val description: String,
 
     // when the review was posted
