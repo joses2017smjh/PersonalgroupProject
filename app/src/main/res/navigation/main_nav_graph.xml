@@ -11,6 +11,11 @@
             android:name="bathroom_id"
             app:argType="string"
             android:defaultValue="0001597e0437e45fa90525ff8f94e3709b072669"/>
-
     </fragment>
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="radian628.bathrooms.MapsFragment">
+    </fragment>
+
 </navigation>
