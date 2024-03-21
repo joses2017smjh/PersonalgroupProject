@@ -45,17 +45,15 @@
             fetchBuildingsAndAddMarkers()
             //TODO implement completely once the building list view is available
             googleMap.setOnInfoWindowClickListener { marker ->
-
-            Log.d("ClickedBathroom", "You clicked me!")
-            val bundle = Bundle()
-            bundle.putString("building_name", marker.title)
-            findNavController().navigate(R.id.navigate_to_bathroom_reveiws, bundle)
+                val buildingName = marker.title.toString()
+                Log.e("MapNav", "$buildingName")
+                val bundle = Bundle()
+                bundle.putString("building_name", buildingName)
+                findNavController().navigate(R.id.navigate_to_selection_view, bundle)
             }
         }
 
         private var bathroomCountsAreCached = false
-
-
 
         override fun onCreateView(
             inflater: LayoutInflater,

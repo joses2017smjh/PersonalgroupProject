@@ -19,6 +19,9 @@
         <action
             android:id="@+id/navigate_to_list_view"
             app:destination="@id/list_item_building"/>
+        <action
+            android:id="@+id/navigate_to_selection_view"
+            app:destination="@id/selection_view_fragment"/>
     </fragment>
 
     <fragment
@@ -27,7 +30,7 @@
         <argument
             android:name="building_name"
             app:argType="string"
-            android:defaultValue="The Valley Library"/>
+            android:defaultValue="Community Hall"/>
         <action
             android:id="@+id/navigate_to_bathroom_reveiws"
             app:destination="@+id/individual_bathroom_fragment"/>
