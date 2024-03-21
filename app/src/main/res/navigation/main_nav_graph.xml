@@ -18,4 +18,11 @@
         android:name="radian628.bathrooms.MapsFragment">
     </fragment>
 
+    <fragment
+        android:id="@+id/selection_view_fragment"
+        android:name="radian628.bathrooms.SelectionViewFragment">
+    </fragment>
+
+
+
 </navigation>

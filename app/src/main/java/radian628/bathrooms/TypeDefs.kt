@@ -23,28 +23,31 @@ public class Review(
 
 public data class Bathroom(
     // firebase ID for bathroom
-    val id: String,
+//    val id: String?,
 
     // should be same as it appears IRL
-    val roomNumber: String,
+    val room_number: String,
 
     // not sure whether to use building name or an ID linked to it
     // especially since the Locations API doesn't use name
-    val buildingId: String,
+    val building_name: String,
 
-    val gender: BathroomGender,
-    val wheelchairAccessible: Boolean,
+    val gender: String,
+    val wheelchair_accessible: Boolean,
 
     // ranges from 1 to 5
     val rating: Double,
 
-    val floor: Floor
-)
+//    val floor: Floor
+) {
+    constructor() : this("dummy room", "dummy name", "dummy gender", false, 0.0)
+}
 
 public data class Floor(
     val name: String,
     val bathrooms: List<Bathroom>,
-    val building: Building
+    var isExpandable: Boolean = false
+
 )
 
 public data class Building(

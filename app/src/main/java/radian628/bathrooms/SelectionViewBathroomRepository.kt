@@ -7,7 +7,7 @@ import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.*
 import kotlinx.coroutines.tasks.await
 
-class BathroomsRepository() {
+class SelectionViewBathroomRepository() {
     // Function retrieves bathroom data from Firebase and sorts them into their respective floors
     private lateinit var floorList: ArrayList<Floor>
 
@@ -37,6 +37,7 @@ class BathroomsRepository() {
             }
 
             val bathroomList = response.toObjects<Bathroom>()
+            Log.d("BATHROOM LIST", bathroomList.toString())
 //                    Result.success(bathroomList)
 
             val idx = if (bathroomList[0].room_number.get(0) != '1') 1 else 0
@@ -81,6 +82,8 @@ class BathroomsRepository() {
             if (bathroomItem7.size > 0) {
                 floorList.add(Floor("Floor 7", bathroomItem7))
             }
+            Log.d("FLOOR LIST", floorList.toString())
+
             return floorList
         } catch(e: Exception) {
             Log.d("REPO ERROR", "Error: ${e.message.orEmpty()}")
