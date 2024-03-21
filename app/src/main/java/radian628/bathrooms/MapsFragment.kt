@@ -19,12 +19,16 @@
     import com.google.android.gms.maps.model.LatLng
     import com.google.android.gms.maps.model.Marker
     import com.google.android.gms.maps.model.MarkerOptions
+    import com.google.firebase.Firebase
+    import com.google.firebase.firestore.firestore
     import kotlinx.coroutines.CoroutineScope
     import kotlinx.coroutines.Dispatchers
     import kotlinx.coroutines.launch
+    import kotlinx.coroutines.tasks.await
     import retrofit2.Call
     import retrofit2.Callback
     import retrofit2.Response
+    import java.util.Date
 
     class MapsFragment : Fragment() {
         private lateinit var googleMap: GoogleMap
@@ -95,7 +99,7 @@
                                     .position(position)
                                     .title(buildingData.attributes.name)
                                     //.icon(BitmapDescriptorFactory.fromResource(R.drawable.custom_marker_icon))
-
+                                val numBath = getNumBathrooms(buildingData.attributes.name)
                                 // Switch to the main thread before adding the marker
 
                                 launch(Dispatchers.Main) {
@@ -107,10 +111,11 @@
                                             val infoView = layoutInflater.inflate(R.layout.custom_info_window, null)
                                             // Get views
                                             val buildingNameTextView: TextView = infoView.findViewById(R.id.buildingNameTextView)
+                                            val numBathroomsTextView: TextView = infoView.findViewById(R.id.numBathrooms)
 
                                             // Set building name
                                             buildingNameTextView.text = p0.title ?: ""
-
+                                            numBathroomsTextView.text = "Number of Bathrooms: $numBath"
                                             return infoView
                                         }
 
@@ -130,6 +135,20 @@
                     Log.e(TAG, "Error fetching buildings: ${e.message}", e)
                 }
             }
+        }
+
+        private suspend fun getNumBathrooms(buildingName: String): Int {
+
+            val response = Firebase.firestore
+                .collection("Bathroom")
+                .whereEqualTo("building_name", buildingName)
+                .get().await()
+
+            if(response != null){
+                return response.size()
+            }
+            return 0
+
         }
 
     }
