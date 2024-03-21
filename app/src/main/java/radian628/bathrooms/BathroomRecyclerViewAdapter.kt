@@ -9,8 +9,10 @@ import android.widget.RatingBar
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import androidx.navigation.fragment.findNavController
 
 class BathroomRecyclerViewAdapter(private val bathroomList: List<Bathroom>):
+
     RecyclerView.Adapter<BathroomRecyclerViewAdapter.BathroomViewHolder>() {
     class BathroomViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val title: TextView = itemView.findViewById(R.id.bathroom_title)
@@ -41,6 +43,7 @@ class BathroomRecyclerViewAdapter(private val bathroomList: List<Bathroom>):
         }
         holder.card.setOnClickListener {
             Log.d("ClickedBathroom", "You clicked me!")
+//            val directions =
         }
     }
 }
