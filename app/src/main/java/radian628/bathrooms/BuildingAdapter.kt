@@ -26,7 +26,7 @@ class BuildingAdapter(private val buildingList: List<Building>) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BuildingViewHolder {
         val itemView = LayoutInflater.from(parent.context)
             .inflate(R.layout.list_item_building, parent, false)
-        return BuildingViewHolder(itemView)`
+        return BuildingViewHolder(itemView)
     }
 
     override fun onBindViewHolder(holder: BuildingViewHolder, position: Int) {
