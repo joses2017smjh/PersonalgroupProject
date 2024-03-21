@@ -89,6 +89,8 @@
                     )?.execute()
 
                     if (response?.isSuccessful == true) {
+                        val numBathrooms = hashMapOf<String, Int>()
+
                         val buildings = response.body()?.data
                         buildings?.forEach { buildingData ->
                             val latitude = buildingData.attributes.latitude?.toDoubleOrNull()
@@ -99,10 +101,13 @@
                                     .position(position)
                                     .title(buildingData.attributes.name)
                                     //.icon(BitmapDescriptorFactory.fromResource(R.drawable.custom_marker_icon))
-                                val numBath = getNumBathrooms(buildingData.attributes.name)
                                 // Switch to the main thread before adding the marker
 
                                 launch(Dispatchers.Main) {
+                                    val numBath = getNumBathrooms(buildingData.attributes.name)
+
+                                    numBathrooms.set(buildingData.attributes.name, numBath)
+
                                     googleMap.addMarker(markerOptions)
 
                                     // Set custom info window adapter
@@ -115,7 +120,7 @@
 
                                             // Set building name
                                             buildingNameTextView.text = p0.title ?: ""
-                                            numBathroomsTextView.text = "Number of Bathrooms: $numBath"
+                                            numBathroomsTextView.text = "Number of Bathrooms: ${numBathrooms.get(p0.title)}"
                                             return infoView
                                         }
 
