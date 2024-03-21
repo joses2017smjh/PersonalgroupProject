@@ -15,13 +15,27 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import okhttp3.ResponseBody
 
+<<<<<<< HEAD
+=======
+@JsonClass(generateAdapter = true)
+data class LocationsAPIBuildingLinks(
+    val self: String?,
+    val next: String?
+)
+>>>>>>> origin/jose
 
 @JsonClass(generateAdapter = true)
 data class LocationsAPIBuildingDataAttributes(
     val name: String,
+<<<<<<< HEAD
     val abbreviation: String,
     val longitude: String,
     val latitude: String
+=======
+    val abbreviation: String?,
+    val longitude: String?,
+    val latitude: String?
+>>>>>>> origin/jose
 )
 
 @JsonClass(generateAdapter = true)
@@ -33,7 +47,13 @@ data class LocationsAPIBuildingData(
 @JsonClass(generateAdapter = true)
 data class LocationsAPIBuildings(
     @Json(name = "data")
+<<<<<<< HEAD
     val data: List<LocationsAPIBuildingData>
+=======
+    val data: List<LocationsAPIBuildingData>,
+    @Json(name = "links")
+    val links: LocationsAPIBuildingLinks
+>>>>>>> origin/jose
 )
 
 interface LocationsAPIService {
@@ -42,7 +62,23 @@ interface LocationsAPIService {
         @Header("Authorization")
         authorization: String,
         @Query("q")
+<<<<<<< HEAD
         building: String,
+=======
+        building: String?,
+        @Query("lat")
+        lat: Double?,
+        @Query("lon")
+        lon: Double?,
+        @Query("distance")
+        distance: Double?,
+        @Query("distanceUnit")
+        distanceUnit: String?,
+        @Query("page[size]")
+        page_size: Int?,
+        @Query("page[number]")
+        page_number: Int?
+>>>>>>> origin/jose
     ): Call<LocationsAPIBuildings>
 
     @GET("./locations/{locationID}")
@@ -127,6 +163,7 @@ class LocationsAPIRepository() {
         return null
     }
 
+<<<<<<< HEAD
     fun getAllBuildings(): List<Pair<String, Pair<Double, Double>>>? {
         val token = getLocationsAPIToken() ?: return null
 
@@ -153,6 +190,31 @@ class LocationsAPIRepository() {
         val token = getLocationsAPIToken() ?: return null
 
         return locationService.locations(token, building)
+=======
+
+    fun locations(
+        building: String?,
+        lat: Double?,
+        lon: Double?,
+        distance: Double?,
+        distanceUnit: String?,
+        page_size: Int?,
+        page_number: Int?
+    ): Call<LocationsAPIBuildings>? {
+
+        val token = getLocationsAPIToken() ?: return null
+
+        return locationService.locations(
+            authorization = token,
+            building = building,
+            lat = lat,
+            lon = lon,
+            distance = distance,
+            distanceUnit = distanceUnit,
+            page_size = page_size,
+            page_number = page_number
+        )
+>>>>>>> origin/jose
     }
 
     fun locationsByLocationID(

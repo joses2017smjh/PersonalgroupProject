@@ -20,7 +20,14 @@
     <fragment
         android:id="@+id/fragment_list_iteam_building"
         android:name="radian628.bathrooms.SearchListViewFragment">
+<<<<<<< HEAD
     </fragment>
 
 
 </navigation>
+=======
+  </fragment>
+
+
+</navigation>
+>>>>>>> origin/jose
