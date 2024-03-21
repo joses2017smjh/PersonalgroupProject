@@ -26,7 +26,7 @@ class BuildingAdapter(private val buildingList: List<Building>) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BuildingViewHolder {
         val itemView = LayoutInflater.from(parent.context)
             .inflate(R.layout.list_item_building, parent, false)
-        return BuildingViewHolder(itemView)
+        return BuildingViewHolder(itemView)`
     }
 
     override fun onBindViewHolder(holder: BuildingViewHolder, position: Int) {
@@ -38,7 +38,7 @@ class BuildingAdapter(private val buildingList: List<Building>) :
         arrowRightImageView.setOnClickListener {
             val bundle = Bundle()
             bundle.putString("building_name", building.name)
-            it.findNavController().navigate(R.id.action_searchListViewFragment_to_selectionViewFragment, bundle)
+            it.findNavController().navigate(R.id.navigate_to_selection_view_bathroom, bundle)
         }
 
     }

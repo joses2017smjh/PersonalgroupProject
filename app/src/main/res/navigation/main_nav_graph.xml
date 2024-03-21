@@ -43,9 +43,8 @@
             android:id="@+id/navigate_to_map_view"
             app:destination="@id/mapsFragment"/>
         <action
-            android:id="@+id/action_searchListViewFragment_to_selectionViewFragment"
-            android:name="radian628.bathrooms.SelectionViewFragment">
-        </action>
+            android:id="@+id/navigate_to_selection_view_bathroom"
+            app:destination="@id/selection_view_fragment"/>
 
     </fragment>
 
