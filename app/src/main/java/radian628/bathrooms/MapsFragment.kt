@@ -122,6 +122,7 @@
                                                 numbath = 0
                                             }
                                             buildingNameTextView.text = p0.title ?: ""
+                                            buildingNameTextView.setCompoundDrawablesWithIntrinsicBounds(0,0,R.drawable.ic_next,0)
                                             numBathroomsTextView.text = "Number of Bathrooms: ${numbath}"
                                             return infoView
                                         }
