@@ -1,61 +1,86 @@
 package radian628.bathrooms
 
-import androidx.fragment.app.Fragment
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import radian628.bathrooms.Building
-import radian628.bathrooms.R
-import radian628.bathrooms.BuildingAdapter
-import kotlin.random.Random
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import retrofit2.Response
 
 class SearchListViewFragment : Fragment() {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: BuildingAdapter
+    private val repository = LocationsAPIRepository() // Assuming this is your repository for fetching buildings
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.list_item_building, container, false)
+        val view = inflater.inflate(R.layout.fragment_list_iteam_building, container, false)
 
         // Initialize the RecyclerView
-        // TODO: fix this
-        // commenting this out for now because it's preventing main from building
-        // recyclerView = view.findViewById(R.id.recycler_view_buildings)
-        // recyclerView.layoutManager = LinearLayoutManager(activity)
+        recyclerView = view.findViewById(R.id.recycler_view_buildings)
+        recyclerView.layoutManager = LinearLayoutManager(activity)
 
-        // Generate dummy data
-        val dummyBuildings = generateDummyBuildings()
+        // Initialize the adapter with an empty list
+        adapter = BuildingAdapter(listOf())
+        recyclerView.adapter = adapter
 
-        // Set the adapter
-        adapter = BuildingAdapter(dummyBuildings)
-        // recyclerView.adapter = adapter
+        // Fetch buildings from the API
+        fetchBuildings()
 
         return view
     }
-}
 
-fun generateDummyBuildings(): List<Building> {
-    val buildingNames = listOf(
-        "Student Union", "Engineering Hall", "Science Center",
-        "Art Building", "Business Complex", "Library Annex",
-        "Health Services", "Recreation Center", "Dormitory East",
-        "Dormitory West"
-    )
+    private fun fetchBuildings() {
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val response = repository.locations(
+                    building = null,
+                    distance = null,
+                    distanceUnit = null,
+                    lat = null,
+                    lon = null,
+                    page_number = 1,
+                    page_size = 200
+                )?.execute()
 
-    return buildingNames.map { name ->
-        Building(
-            floors = emptyList(),
-            lat = Random.nextDouble(44.5600, 44.5700),
-            lon = Random.nextDouble(-123.2800, -123.2500),
-            distance = "${Random.nextDouble(50.0, 500.0).toInt()} ft away",
-            rating = Random.nextDouble(3.0, 5.0).toFloat(),
-            name = name
-        )
+                if (response != null) {
+                    if (response.isSuccessful) {
+                        val buildingsApiData = response.body()?.data ?: listOf()
+                        val buildings = buildingsApiData.map { apiBuilding ->
+                            Building(
+                                floors = listOf(), // Adapt based on your data structure
+                                lat = apiBuilding.attributes.latitude?.toDoubleOrNull() ?: 0.0,
+                                lon = apiBuilding.attributes.longitude?.toDoubleOrNull() ?: 0.0,
+                                distance = "Unknown", // You might need to calculate or transform this based on your requirements
+                                rating = 0.0f, // Adapt based on your data structure
+                                name = apiBuilding.attributes.name ?: "N/A"
+                            )
+                        }
+                        updateRecyclerView(buildings)
+                    } else {
+                        // Handle the error
+                        println("API call unsuccessful: ${response.message()}")
+                    }
+                }
+            } catch (e: Exception) {
+                // Handle the exception
+                println("Error fetching buildings: ${e.message}")
+            }
+        }
+    }
+
+    private fun updateRecyclerView(buildings: List<Building>) {
+        CoroutineScope(Dispatchers.Main).launch {
+            adapter = BuildingAdapter(buildings)
+            recyclerView.adapter = adapter
+        }
     }
 }
