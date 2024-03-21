@@ -40,10 +40,11 @@ class SelectionViewBathroomRepository() {
             val bathroomList = response.toObjects<Bathroom>()
             Log.d("BATHROOM LIST", bathroomList.toString())
 //                    Result.success(bathroomList)
+//            var idx = 0
 
-            val idx = if (bathroomList[0].room_number.get(0) != '1') 1 else 0
 
             for (bathroom in bathroomList) {
+                var idx = if (bathroomList[0].room_number.get(0) == '0') 1 else 0
                 val currFloor = bathroom.room_number.get(idx)
                 // sort bathroom into its floor
                 when (currFloor) {
