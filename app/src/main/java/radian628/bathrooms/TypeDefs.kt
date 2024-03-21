@@ -23,7 +23,7 @@ public class Review(
 
 public data class Bathroom(
     // firebase ID for bathroom
-//    val id: String?,
+    val id: String,
 
     // should be same as it appears IRL
     val room_number: String,
@@ -40,7 +40,7 @@ public data class Bathroom(
 
 //    val floor: Floor
 ) {
-    constructor() : this("dummy room", "dummy name", "dummy gender", false, 0.0)
+    constructor() : this("dummy id","dummy room", "dummy name", "dummy gender", false, 0.0)
 }
 
 public data class Floor(

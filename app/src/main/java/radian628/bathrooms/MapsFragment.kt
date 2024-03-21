@@ -19,12 +19,16 @@
     import com.google.android.gms.maps.model.LatLng
     import com.google.android.gms.maps.model.Marker
     import com.google.android.gms.maps.model.MarkerOptions
+    import com.google.firebase.Firebase
+    import com.google.firebase.firestore.firestore
     import kotlinx.coroutines.CoroutineScope
     import kotlinx.coroutines.Dispatchers
     import kotlinx.coroutines.launch
+    import kotlinx.coroutines.tasks.await
     import retrofit2.Call
     import retrofit2.Callback
     import retrofit2.Response
+    import java.util.Date
 
     class MapsFragment : Fragment() {
         private lateinit var googleMap: GoogleMap
@@ -74,6 +78,7 @@
         private fun fetchBuildingsAndAddMarkers() {
             CoroutineScope(Dispatchers.IO).launch {
                 try {
+                    val bathroomCountMap = getNumBathrooms()
                     val response = repository.locations(
                         building = null,
                         distance = null,
@@ -85,6 +90,8 @@
                     )?.execute()
 
                     if (response?.isSuccessful == true) {
+
+
                         val buildings = response.body()?.data
                         buildings?.forEach { buildingData ->
                             val latitude = buildingData.attributes.latitude?.toDoubleOrNull()
@@ -95,10 +102,10 @@
                                     .position(position)
                                     .title(buildingData.attributes.name)
                                     //.icon(BitmapDescriptorFactory.fromResource(R.drawable.custom_marker_icon))
-
                                 // Switch to the main thread before adding the marker
 
                                 launch(Dispatchers.Main) {
+
                                     googleMap.addMarker(markerOptions)
 
                                     // Set custom info window adapter
@@ -107,10 +114,15 @@
                                             val infoView = layoutInflater.inflate(R.layout.custom_info_window, null)
                                             // Get views
                                             val buildingNameTextView: TextView = infoView.findViewById(R.id.buildingNameTextView)
+                                            val numBathroomsTextView: TextView = infoView.findViewById(R.id.numBathrooms)
 
                                             // Set building name
+                                            var numbath = bathroomCountMap[p0.title]
+                                            if (numbath == null) {
+                                                numbath = 0
+                                            }
                                             buildingNameTextView.text = p0.title ?: ""
-
+                                            numBathroomsTextView.text = "Number of Bathrooms: ${numbath}"
                                             return infoView
                                         }
 
@@ -132,4 +144,17 @@
             }
         }
 
+        private suspend fun getNumBathrooms(): Map<String, Int> {
+            val response = Firebase.firestore.collection("Bathroom").get().await()
+
+            val bathroomCountMap = mutableMapOf<String, Int>()
+            for (document in response.documents) {
+                val buildingName = document.getString("building_name")
+                if (buildingName != null) {
+                    val count = bathroomCountMap.getOrDefault(buildingName, 0)
+                    bathroomCountMap[buildingName] = count + 1
+                }
+            }
+            return bathroomCountMap
+        }
     }

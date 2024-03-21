@@ -12,6 +12,7 @@ class SelectionViewBathroomRepository() {
     private lateinit var floorList: ArrayList<Floor>
 
     suspend fun loadData(buildingName: String): ArrayList<Floor>{
+
         val db = Firebase.firestore
         floorList = ArrayList()
 
@@ -29,7 +30,7 @@ class SelectionViewBathroomRepository() {
 
         try {
             val response = db.collection("Bathroom")
-                .whereEqualTo("building_name", "The Valley Library")
+                .whereEqualTo("building_name", buildingName)
                 .get().await()
 
             if (response != null) {

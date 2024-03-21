@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.ktx.Firebase
@@ -30,13 +31,15 @@ class SelectionViewFragment: Fragment(R.layout.selection_view_main) {
                 val adapter = FloorRecyclerViewAdapter(bathrooms)
                 floorRecyclerView.adapter = adapter
             }
+
         }
 
     }
 
     override fun onStart() {
         super.onStart()
-        viewModel.loadData("The Valley Library")
+        val buildingName = arguments?.getString("building_name") ?: ""
+        viewModel.loadData(buildingName)
     }
 
 }

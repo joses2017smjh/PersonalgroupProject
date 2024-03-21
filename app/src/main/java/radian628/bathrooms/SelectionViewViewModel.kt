@@ -19,7 +19,7 @@ class SelectionViewViewModel: ViewModel() {
     fun loadData(buildingName: String) {
         viewModelScope.launch {
             _loading.value = true
-            val result = repository.loadData("The Valley Library")
+            val result = repository.loadData(buildingName)
             _loading.value = false
             _bathrooms.value = result
         }

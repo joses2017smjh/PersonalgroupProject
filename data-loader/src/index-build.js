@@ -13772,18 +13772,17 @@ This typically indicates that your device does not have a healthy Internet conne
   async function main() {
     const bathroomsData = await (await fetch("bathrooms.json")).json();
     for (const { value, display, building } of bathroomsData) {
+      const docHash = (0, import_object_hash.default)({ value, display, building });
       const singleBathroomDoc = {
         building_name: building,
         gender: display.endsWith(" Women's") ? "FEMALE" : display.endsWith(" Men's") ? "MALE" : "INCLUSIVE",
         rating: 0,
         room_number: display.match(/^\S+/g)?.[0],
-        wheelchair_accessible: false
+        wheelchair_accessible: false,
         // defaults to false; self-reported?
+        id: docHash
       };
-      setDoc(
-        doc(db2, "Bathroom", (0, import_object_hash.default)({ value, display, building })),
-        singleBathroomDoc
-      );
+      setDoc(doc(db2, "Bathroom", docHash), singleBathroomDoc);
     }
   }
   main();

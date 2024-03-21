@@ -31,6 +31,7 @@ async function main() {
   const bathroomsData = await (await fetch("bathrooms.json")).json();
 
   for (const { value, display, building } of bathroomsData) {
+    const docHash = hash({ value, display, building });
     const singleBathroomDoc = {
       building_name: building,
       gender: display.endsWith(" Women's")
@@ -41,11 +42,9 @@ async function main() {
       rating: 0,
       room_number: display.match(/^\S+/g)?.[0],
       wheelchair_accessible: false, // defaults to false; self-reported?
+      id: docHash,
     };
-    setDoc(
-      doc(db, "Bathroom", hash({ value, display, building })),
-      singleBathroomDoc
-    );
+    setDoc(doc(db, "Bathroom", docHash), singleBathroomDoc);
   }
 }
 

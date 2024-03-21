@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 class FloorRecyclerViewAdapter(private val floorItemList: List<Floor>)
     : RecyclerView.Adapter<FloorRecyclerViewAdapter.FloorRecyclerViewHolder>() {
 
+
     class FloorRecyclerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val floorTitle : TextView = itemView.findViewById(R.id.floor_title)
         val imageView: ImageView = itemView.findViewById(R.id.arrow_imageview)
