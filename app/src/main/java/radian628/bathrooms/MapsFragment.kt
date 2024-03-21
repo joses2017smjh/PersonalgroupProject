@@ -40,18 +40,16 @@
             googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(oregonStateUniversity, 17f))
             fetchBuildingsAndAddMarkers()
             //TODO implement completely once the building list view is available
-           /* googleMap.setOnInfoWindowClickListener { marker ->
-                // Retrieve the building data associated with the marker
-                val buildingData = marker.tag as? Building
-                // Check if the building data is not null
-                buildingData?.let {
-                    val buildingId = buildingData.name
-                    val intent = Intent(context, IndividualBuildingActivity::class.java)
-                    intent.putExtra("building_name", buildingId)
-                    startActivity(intent)
-                }
-            }*/
+            googleMap.setOnInfoWindowClickListener { marker ->
+
+            Log.d("ClickedBathroom", "You clicked me!")
+            val bundle = Bundle()
+            bundle.putString("building_name", marker.title)
+            findNavController().navigate(R.id.navigate_to_bathroom_reveiws, bundle)
+            }
         }
+
+
 
         override fun onCreateView(
             inflater: LayoutInflater,
