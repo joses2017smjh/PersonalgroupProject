@@ -78,6 +78,7 @@
         private fun fetchBuildingsAndAddMarkers() {
             CoroutineScope(Dispatchers.IO).launch {
                 try {
+                    val bathroomCountMap = getNumBathrooms()
                     val response = repository.locations(
                         building = null,
                         distance = null,
@@ -89,7 +90,7 @@
                     )?.execute()
 
                     if (response?.isSuccessful == true) {
-                        val numBathrooms = hashMapOf<String, Int>()
+
 
                         val buildings = response.body()?.data
                         buildings?.forEach { buildingData ->
@@ -104,9 +105,6 @@
                                 // Switch to the main thread before adding the marker
 
                                 launch(Dispatchers.Main) {
-                                    val numBath = getNumBathrooms(buildingData.attributes.name)
-
-                                    numBathrooms.set(buildingData.attributes.name, numBath)
 
                                     googleMap.addMarker(markerOptions)
 
@@ -119,8 +117,12 @@
                                             val numBathroomsTextView: TextView = infoView.findViewById(R.id.numBathrooms)
 
                                             // Set building name
+                                            var numbath = bathroomCountMap[p0.title]
+                                            if (numbath == null) {
+                                                numbath = 0
+                                            }
                                             buildingNameTextView.text = p0.title ?: ""
-                                            numBathroomsTextView.text = "Number of Bathrooms: ${numBathrooms.get(p0.title)}"
+                                            numBathroomsTextView.text = "Number of Bathrooms: ${numbath}"
                                             return infoView
                                         }
 
@@ -142,18 +144,17 @@
             }
         }
 
-        private suspend fun getNumBathrooms(buildingName: String): Int {
+        private suspend fun getNumBathrooms(): Map<String, Int> {
+            val response = Firebase.firestore.collection("Bathroom").get().await()
 
-            val response = Firebase.firestore
-                .collection("Bathroom")
-                .whereEqualTo("building_name", buildingName)
-                .get().await()
-
-            if(response != null){
-                return response.size()
+            val bathroomCountMap = mutableMapOf<String, Int>()
+            for (document in response.documents) {
+                val buildingName = document.getString("building_name")
+                if (buildingName != null) {
+                    val count = bathroomCountMap.getOrDefault(buildingName, 0)
+                    bathroomCountMap[buildingName] = count + 1
+                }
             }
-            return 0
-
+            return bathroomCountMap
         }
-
     }
