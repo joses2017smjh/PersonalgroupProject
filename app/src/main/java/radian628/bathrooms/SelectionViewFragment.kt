@@ -23,7 +23,6 @@ class SelectionViewFragment: Fragment(R.layout.selection_view_main) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val closeBtn = view.findViewById<ImageView>(R.id.arrow_right)
         buildingTitle = view.findViewById(R.id.building_name)
         floorRecyclerView = view.findViewById(R.id.main_recyclerview)
         floorRecyclerView.setHasFixedSize(true)
@@ -43,6 +42,11 @@ class SelectionViewFragment: Fragment(R.layout.selection_view_main) {
         super.onResume()
         val buildingName = arguments?.getString("building_name") ?: ""
         buildingTitle.text = buildingName
+        if (buildingName.length > 19) {
+            buildingTitle.textSize = 30F
+        } else {
+            buildingTitle.textSize = 40F
+        }
         viewModel.loadData(buildingName)
 
     }
