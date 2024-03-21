@@ -9,6 +9,11 @@ import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.widget.FrameLayout
 import androidx.activity.ComponentActivity
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
+import com.google.android.material.appbar.MaterialToolbar
 import com.google.firebase.Firebase
 import com.google.firebase.firestore.firestore
 import kotlinx.coroutines.CoroutineScope
@@ -52,7 +57,18 @@ class MainActivity : AppCompatActivity() {
             )?.execute()?.body())
         }
 
+        val appBar: MaterialToolbar = findViewById(R.id.top_app_bar)
+        setSupportActionBar(appBar)
+        val navController = (supportFragmentManager.findFragmentById(
+            R.id.fragment_container) as NavHostFragment).navController
+        var appBarConfig = AppBarConfiguration(navController.graph)
+        setupActionBarWithNavController(navController, appBarConfig)
 
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.fragment_container)
+        return navController.navigateUp() || super.onSupportNavigateUp()
     }
 
 }
