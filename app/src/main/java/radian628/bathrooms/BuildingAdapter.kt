@@ -15,7 +15,7 @@ class BuildingAdapter(private val buildingList: List<Building>) :
     class BuildingViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val buildingName: TextView = view.findViewById(R.id.text_building_name)
         val distance: TextView = view.findViewById(R.id.text_distance)
-        val ratingBar: RatingBar = view.findViewById(R.id.bathroom_rating_stars)
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BuildingViewHolder {
@@ -28,7 +28,7 @@ class BuildingAdapter(private val buildingList: List<Building>) :
         val building = buildingList[position]
         holder.buildingName.text = building.name
         holder.distance.text = building.distance
-        holder.ratingBar.rating = building.rating
+
     }
 
     override fun getItemCount() = buildingList.size

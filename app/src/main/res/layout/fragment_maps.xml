@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="Map View"
             android:textColor="@android:color/white"
-            android:background="@drawable/button_bg_outset"
+            android:background="@drawable/button_bg_inset"
             android:layout_weight="1" />
 
         <!-- Button 2 -->

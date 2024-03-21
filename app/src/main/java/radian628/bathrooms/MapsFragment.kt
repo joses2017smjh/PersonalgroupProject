@@ -10,6 +10,7 @@
     import android.widget.Button
     import android.widget.ImageView
     import android.widget.TextView
+    import androidx.navigation.fragment.findNavController
     import com.google.android.gms.maps.CameraUpdateFactory
     import com.google.android.gms.maps.GoogleMap
     import com.google.android.gms.maps.OnMapReadyCallback
@@ -64,8 +65,10 @@
             val buttonMapView = view.findViewById<Button>(R.id.buttonMapView)
             val buttonListView = view.findViewById<Button>(R.id.buttonListView)
 
-            buttonMapView.setBackgroundResource(R.drawable.button_bg_inset)
-            buttonListView.setBackgroundResource(R.drawable.button_bg_outset)
+            buttonListView.setOnClickListener {
+                // Navigate to the list view fragment using the action defined in the nav graph
+                findNavController().navigate(R.id.navigate_to_list_view)
+            }
         }
 
         private fun fetchBuildingsAndAddMarkers() {
