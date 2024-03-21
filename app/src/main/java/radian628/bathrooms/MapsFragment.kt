@@ -23,7 +23,11 @@
     import com.google.firebase.firestore.firestore
     import kotlinx.coroutines.CoroutineScope
     import kotlinx.coroutines.Dispatchers
+    import kotlinx.coroutines.flow.collect
+    import kotlinx.coroutines.flow.map
+    import kotlinx.coroutines.flow.toList
     import kotlinx.coroutines.launch
+    import kotlinx.coroutines.runBlocking
     import kotlinx.coroutines.tasks.await
     import retrofit2.Call
     import retrofit2.Callback
@@ -48,6 +52,8 @@
             findNavController().navigate(R.id.navigate_to_bathroom_reveiws, bundle)
             }
         }
+
+        private var bathroomCountsAreCached = false
 
 
 
@@ -144,6 +150,24 @@
         }
 
         private suspend fun getNumBathrooms(): Map<String, Int> {
+            if (bathroomCountsAreCached) {
+                val bathroomCountMap = mutableMapOf<String, Int>()
+                val mapData =
+                    BuildingInfoDatabase
+                        .getInstance(requireContext())
+                        .buildingInfoDAO()
+                        .getNumBathrooms()
+                        .toList()
+
+                for (list in mapData) {
+                    for (entry in list) {
+                        bathroomCountMap.set(entry.buildingName, entry.numBathrooms)
+                    }
+                }
+
+                return bathroomCountMap
+            }
+
             val response = Firebase.firestore.collection("Bathroom").get().await()
 
             val bathroomCountMap = mutableMapOf<String, Int>()
@@ -154,6 +178,20 @@
                     bathroomCountMap[buildingName] = count + 1
                 }
             }
+
+            for (entry in bathroomCountMap.toList()) {
+                BuildingInfoDatabase
+                    .getInstance(requireContext())
+                    .buildingInfoDAO()
+                    .insert(
+                        BuildingInfoCacheEntry(
+                        entry.first, entry.second
+                    )
+                    )
+            }
+
+            bathroomCountsAreCached = true
+
             return bathroomCountMap
         }
     }
