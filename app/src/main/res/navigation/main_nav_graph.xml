@@ -2,13 +2,25 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main_nav_graph"
-    app:startDestination="@id/individual_bathroom_fragment">
+    app:startDestination="@id/fragment_list_iteam_building">
     <fragment
         android:id="@+id/individual_bathroom_fragment"
         android:name="radian628.bathrooms.IndividualBathroomActivityFragment">
+
+        <argument
+            android:name="bathroom_id"
+            app:argType="string"
+            android:defaultValue="0001597e0437e45fa90525ff8f94e3709b072669"/>
     </fragment>
+
     <fragment
-        android:id="@+id/fragment_maps"
+        android:id="@+id/mapsFragment"
         android:name="radian628.bathrooms.MapsFragment">
     </fragment>
+    <fragment
+        android:id="@+id/fragment_list_iteam_building"
+        android:name="radian628.bathrooms.SearchListViewFragment">
+    </fragment>
+
+
 </navigation>
