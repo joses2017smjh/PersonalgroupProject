@@ -19,6 +19,9 @@
         <action
             android:id="@+id/navigate_to_list_view"
             app:destination="@id/list_item_building"/>
+        <action
+            android:id="@+id/navigate_to_selection_view"
+            app:destination="@id/selection_view_fragment"/>
     </fragment>
 
     <fragment
