@@ -1,5 +1,6 @@
 package radian628.bathrooms
 
+import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +9,9 @@ import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import androidx.navigation.Navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import androidx.navigation.fragment.findNavController
 
 class BathroomRecyclerViewAdapter(private val bathroomList: List<Bathroom>):
     RecyclerView.Adapter<BathroomRecyclerViewAdapter.BathroomViewHolder>() {
@@ -41,6 +44,10 @@ class BathroomRecyclerViewAdapter(private val bathroomList: List<Bathroom>):
         }
         holder.card.setOnClickListener {
             Log.d("ClickedBathroom", "You clicked me!")
+            val bundle = Bundle()
+            bundle.putString("bathroom_id", bathroomList[position].id)
+            findNavController(holder.itemView).navigate(R.id.navigate_to_bathroom_reveiws, bundle)
         }
+
     }
 }

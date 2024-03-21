@@ -4,6 +4,7 @@ plugins {
     id("com.google.gms.google-services")
     id("com.google.devtools.ksp") version "1.9.22-1.0.17"
     id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -69,6 +70,7 @@ dependencies {
     implementation ("androidx.fragment:fragment-ktx:1.6.2")
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
+
     implementation("com.google.firebase:firebase-firestore-ktx:24.10.3")
 
     implementation("com.google.android.gms:play-services-maps:18.1.0")

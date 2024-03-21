@@ -24,7 +24,13 @@
     <fragment
         android:id="@+id/selection_view_fragment"
         android:name="radian628.bathrooms.SelectionViewFragment">
-
+        <argument
+            android:name="building_name"
+            app:argType="string"
+            android:defaultValue="The Valley Library"/>
+        <action
+            android:id="@+id/navigate_to_bathroom_reveiws"
+            app:destination="@+id/individual_bathroom_fragment"/>
     </fragment>
 
     <fragment
