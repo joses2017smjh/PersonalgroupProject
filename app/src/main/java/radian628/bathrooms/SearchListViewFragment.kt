@@ -4,9 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.gms.maps.SupportMapFragment
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -36,6 +39,16 @@ class SearchListViewFragment : Fragment() {
         fetchBuildings()
 
         return view
+    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val buttonMapView = view.findViewById<Button>(R.id.buttonMapView)
+
+        buttonMapView.setOnClickListener {
+            // Navigate to the list view fragment using the action defined in the nav graph
+            findNavController().navigate(R.id.navigate_to_map_view)
+        }
     }
 
     private fun fetchBuildings() {
