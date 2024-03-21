@@ -44,11 +44,14 @@ class SearchListViewFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val buttonMapView = view.findViewById<Button>(R.id.buttonMapView)
+        val buildingName = arguments?.getString("building_name")
 
         buttonMapView.setOnClickListener {
             // Navigate to the list view fragment using the action defined in the nav graph
             findNavController().navigate(R.id.navigate_to_map_view)
         }
+
+
     }
 
     private fun fetchBuildings() {
