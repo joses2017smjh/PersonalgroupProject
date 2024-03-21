@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="radian628.bathrooms" />
+                  <option name="mobileSdkAppId" value="1:596326357253:android:4100dc73ff3516306a3f6c" />
+                  <option name="projectId" value="osu-bathrooms-app" />
+                  <option name="projectNumber" value="596326357253" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
