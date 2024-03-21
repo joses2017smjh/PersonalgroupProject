@@ -23,12 +23,19 @@
     import com.google.firebase.firestore.firestore
     import kotlinx.coroutines.CoroutineScope
     import kotlinx.coroutines.Dispatchers
+    import kotlinx.coroutines.flow.collect
+    import kotlinx.coroutines.flow.map
+    import kotlinx.coroutines.flow.single
+    import kotlinx.coroutines.flow.toList
     import kotlinx.coroutines.launch
+    import kotlinx.coroutines.runBlocking
     import kotlinx.coroutines.tasks.await
     import retrofit2.Call
     import retrofit2.Callback
     import retrofit2.Response
     import java.util.Date
+
+
 
     class MapsFragment : Fragment() {
         private lateinit var googleMap: GoogleMap
@@ -142,6 +149,30 @@
         }
 
         private suspend fun getNumBathrooms(): Map<String, Int> {
+            if (bathroomCountsAreCached) {
+                val bathroomCountMap = mutableMapOf<String, Int>()
+                System.out.println("Got here 1")
+
+                val mapData =
+                    BuildingInfoDatabase
+                        .getInstance(requireContext())
+                        .buildingInfoDAO()
+                        .getNumBathrooms()
+
+                System.out.println("Got here 2")
+
+                //for (list in mapData) {
+                    for (entry in mapData) {
+                        bathroomCountMap.set(entry.buildingName, entry.numBathrooms)
+                    }
+                //}
+
+                System.out.println("cached map")
+                System.out.println(bathroomCountMap)
+
+                return bathroomCountMap
+            }
+
             val response = Firebase.firestore.collection("Bathroom").get().await()
 
             val bathroomCountMap = mutableMapOf<String, Int>()
@@ -152,6 +183,20 @@
                     bathroomCountMap[buildingName] = count + 1
                 }
             }
+
+            for (entry in bathroomCountMap.toList()) {
+                BuildingInfoDatabase
+                    .getInstance(requireContext())
+                    .buildingInfoDAO()
+                    .insert(
+                        BuildingInfoCacheEntry(
+                        entry.first, entry.second
+                    )
+                    )
+            }
+
+            bathroomCountsAreCached = true
+
             return bathroomCountMap
         }
     }
