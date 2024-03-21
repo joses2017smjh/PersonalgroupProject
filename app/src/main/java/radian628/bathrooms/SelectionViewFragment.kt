@@ -22,9 +22,6 @@ class SelectionViewFragment: Fragment(R.layout.selection_view_main) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val closeBtn = view.findViewById<ImageView>(R.id.arrow_right)
-        closeBtn.setOnClickListener {
-
-        }
         floorRecyclerView = view.findViewById(R.id.main_recyclerview)
         floorRecyclerView.setHasFixedSize(true)
         floorRecyclerView.layoutManager = LinearLayoutManager(view.context)
