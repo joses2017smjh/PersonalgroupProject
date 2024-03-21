@@ -38,7 +38,8 @@ class SelectionViewFragment: Fragment(R.layout.selection_view_main) {
 
     override fun onStart() {
         super.onStart()
-        viewModel.loadData("The Valley Library")
+        val buildingName = arguments?.getString("building_name") ?: ""
+        viewModel.loadData(buildingName)
     }
 
 }
