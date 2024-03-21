@@ -86,11 +86,23 @@ class IndividualBathroomActivityFragment : Fragment(R.layout.individual_bathroom
                     val bathroomRatingStarsView = view.findViewById<RatingBar>(
                         R.id.bathroom_rating_stars
                     )
+                    val genderIcon = view.findViewById<ImageView>(
+                        R.id.gender_icon
+                    )
 
                     // adapter.updateReviews()
 
                     val roomNum = document?.data?.get("room_number") as? String ?: "???";
                     val building = document?.data?.get("building_name") as? String ?: "Unknown Building"
+                    val gender = document?.data?.get("gender") as? String ?: "INCLUSIVE"
+
+                    if (gender == "FEMALE") {
+                        genderIcon.setImageResource(R.drawable.ic_girl)
+                    } else if (gender == "MALE") {
+                        genderIcon.setImageResource(R.drawable.ic_boy)
+                    } else {
+                        genderIcon.setImageResource(R.drawable.ic_inclusive_symbol)
+                    }
 
                     buildingAndFloorView.text = view.context.getString(
                         R.string.floor_and_name,
