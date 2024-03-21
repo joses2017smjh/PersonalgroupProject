@@ -25,6 +25,7 @@
     import kotlinx.coroutines.Dispatchers
     import kotlinx.coroutines.flow.collect
     import kotlinx.coroutines.flow.map
+    import kotlinx.coroutines.flow.single
     import kotlinx.coroutines.flow.toList
     import kotlinx.coroutines.launch
     import kotlinx.coroutines.runBlocking
@@ -33,6 +34,8 @@
     import retrofit2.Callback
     import retrofit2.Response
     import java.util.Date
+
+
 
     class MapsFragment : Fragment() {
         private lateinit var googleMap: GoogleMap
@@ -52,8 +55,6 @@
                 findNavController().navigate(R.id.navigate_to_selection_view, bundle)
             }
         }
-
-        private var bathroomCountsAreCached = false
 
         override fun onCreateView(
             inflater: LayoutInflater,
@@ -150,18 +151,24 @@
         private suspend fun getNumBathrooms(): Map<String, Int> {
             if (bathroomCountsAreCached) {
                 val bathroomCountMap = mutableMapOf<String, Int>()
+                System.out.println("Got here 1")
+
                 val mapData =
                     BuildingInfoDatabase
                         .getInstance(requireContext())
                         .buildingInfoDAO()
                         .getNumBathrooms()
-                        .toList()
 
-                for (list in mapData) {
-                    for (entry in list) {
+                System.out.println("Got here 2")
+
+                //for (list in mapData) {
+                    for (entry in mapData) {
                         bathroomCountMap.set(entry.buildingName, entry.numBathrooms)
                     }
-                }
+                //}
+
+                System.out.println("cached map")
+                System.out.println(bathroomCountMap)
 
                 return bathroomCountMap
             }

@@ -25,7 +25,7 @@ interface BuildingInfoDAO {
     suspend fun insert(ce: BuildingInfoCacheEntry)
 
     @Query("SELECT * FROM BuildingInfoCacheEntry")
-    fun getNumBathrooms(): Flow<List<BuildingInfoCacheEntry>>
+    suspend fun getNumBathrooms(): List<BuildingInfoCacheEntry>
 }
 
 class SavedCitiesRepository(
@@ -33,7 +33,7 @@ class SavedCitiesRepository(
 ) {
     suspend fun insert(ce: BuildingInfoCacheEntry) = dao.insert(ce)
 
-    fun getNumBathrooms() = dao.getNumBathrooms()
+    suspend fun getNumBathrooms() = dao.getNumBathrooms()
 }
 
 @Database(entities = [BuildingInfoCacheEntry::class], version = 1)
